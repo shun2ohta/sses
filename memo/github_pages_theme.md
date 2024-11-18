@@ -1,8 +1,9 @@
-## GitHub Pages の体裁を整える
+## GitHub Pages で公開するペイジの体裁を整える
 
 GitHub Pagesでは、`README.md` が自動で `index.html` に変換されて公開されるように、設定後は、マークダウンで適当にマークダウンのファイル（下の例では、`memo/{1-xxx.md, 2-xxx.md）を置くと、数秒後にはHTMLに変換されて公開されます。
 
-.
+```
+ .
 ├── README.md（index.md）
 ├── _config.yml
 ├── _layouts
@@ -15,6 +16,7 @@ GitHub Pagesでは、`README.md` が自動で `index.html` に変換されて公
 └── memo
 　   └── 1-×××.md
 　   └── 2-×××.md
+```
 
 さらに、いくつかの設定ファイルを置くことでウェブサイトの見た目を変更することができます。
 
