@@ -11,6 +11,11 @@
     margin: 0 auto; /* 中央配置を維持 */
     height: auto;  /* 必要に応じて高さを自動調整, height: 50px; と指定してもよい*/ 
 };
+.main-content {
+  /* width: 100%;  必要に応じて変更 */
+  max-width: 1200px; /* 制限を広げる */
+  /* padding: 20px; */
+}
 .main-content h1, .main-content h2, .main-content h3, .main-content h4, .main-content h5, .main-content h6{
     color:#625793;
     font-weight: bold; /* ボールドタイプを適用 */
