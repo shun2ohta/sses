@@ -6,7 +6,7 @@ GitHub でファイルを管理する際、コードが中心であったり、W
 ```
 ~/.config/git/ignore
 ```
-vi か何かのエディタで`ignore`に`.DS_Store`とだけ書いて保存してください（vi の場合には、`cd .config/git/; vi ./ignore` → i で insert モード、Esc : →wq; cat などでファイルが正しくできているか確認してください）。
+vi か何かのエディタで`ignore`に`.DS_Store`とだけ書いて保存してください（vi の場合には、`cd .config/git/; vi ./ignore` → i で insert モード、Esc : →wq; cat などでファイルが正しくできているか確認してください）。このやり方では、リポジトリごとに `.gitignore`	 を置く必要がなく、すべてのリポジトリに対して同様の効果を持ちます。
 
 2. 引き続き、Terminalを使って、クローンのディレクトリの先頭をカレントディレクトリとして、まずはそこに移動してください。
 その後、

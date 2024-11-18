@@ -3,7 +3,7 @@
 GitHub Pagesでは、`README.md` が自動で `index.html` に変換されて公開されるように、GitHub Pagesの設定後は、適当にマークダウンのファイル（下の例では、`memo/{1-xxx.md, 2-xxx.md}`）を置くと、数秒後にはHTMLに変換されて公開されます。
 
 ```
-.
+./
 ├── README.md（→index.html に変換される）
 ├── _config.yml
 ├── _layouts
@@ -14,7 +14,7 @@ GitHub Pagesでは、`README.md` が自動で `index.html` に変換されて公
 ├── img
 │   └── favicon.jpg（必要ならば）
 └── memo
-　   └── 1-×××.md（→1-×××.html に変換される）
+　   ├── 1-×××.md（→1-×××.html に変換される）
 　   └── 2-×××.md（→2-×××.html に変換される）
 ```
 
@@ -44,7 +44,7 @@ description: "太田俊二（早大人間環境）:　雑多な記録"
 
 ### assets/css/style.scss
 
-[caymanの公式サイト](https://github.com/pages-themes/cayman)から、`assets/css/style.scss`をコピーして（最初の4行のみが記されている）、続けてスタイルシートを作成します。headerを中心に独自色を出してみます。
+[caymanの公式サイト](https://github.com/pages-themes/cayman)から、`assets/css/style.scss`をコピーして（最初の4行のみが記されている）、続けてスタイルシートを作成します。headerを中心に独自色を出してみます（色や余白の設定をデフォルトから変更しています）。
 ```
 .page-header{
     background-image:linear-gradient(to right, #d55d64 0%, #e49129 50%, #c0671c 100%);
