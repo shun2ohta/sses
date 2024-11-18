@@ -4,7 +4,7 @@
 @import "{{ site.theme }}";
 
 .page-header{
-    background-image:linear-gradient(to left, #625793 0%, #d55d64 35%, #e49129 65%, #c0671c 100%); 
+    background-image:linear-gradient(to right, #d55d64 0%, #e49129 50%, #c0671c 100%); 
 };
 .main-content h1, .main-content h2, .main-content h3, .main-content h4, .main-content h5, .main-content h6{
     color:#625793
