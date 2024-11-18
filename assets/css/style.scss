@@ -6,7 +6,7 @@
 .page-header{
     background-image:linear-gradient(to right, #d55d64 0%, #e49129 50%, #c0671c 100%);
     padding: 10px 0; /* 上下の余白を小さく */
-    height: auto; /* 必要に応じて高さを自動調整 */ 
+    height: auto; /* 必要に応じて高さを自動調整, height: 50px; と指定してもよい*/ 
 };
 .main-content h1, .main-content h2, .main-content h3, .main-content h4, .main-content h5, .main-content h6{
     color:#625793
