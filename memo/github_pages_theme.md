@@ -23,7 +23,7 @@ GitHub Pagesでは、`README.md` が自動で `index.html` に変換されて公
 
 ### _config.yml
 
-公式のペイジにある推奨テーマは下記の1行を書くだけでCSS等が一括で反映されます。この例では、caymanというテーマを使っています。
+[公式のペイジにある推奨テーマ](https://pages.github.com/themes/) を使う場合、下記の1行を書くだけでCSS等が一括で反映されます。この例では、[cayman](https://github.com/pages-themes/cayman)というテーマを使っています。
 ```
 theme: jekyll-theme-cayman
 ```
@@ -32,11 +32,16 @@ theme: jekyll-theme-cayman
 title: "早大人間環境・太田俊二"
 description: "太田俊二（早大人間環境）:　雑多な記録"
 ```
-ちなみに、[caymanのデフォルトの見た目は公式サイト](https://github.com/pages-themes/cayman)をご覧ください。ほかに[サポートされているテーマは公式サイト](https://pages.github.com/themes/)の一覧のペイジにあります。
-
+ちなみに、[caymanのデフォルトの見た目は公式サイト](https://pages-themes.github.io/cayman/)をご覧ください。ほかに[サポートされているテーマは公式サイト](https://pages.github.com/themes/)の一覧のペイジにあります。[カスタマイズの方法は公式サイトにも記されて](https://github.com/pages-themes/cayman?tab=readme-ov-file#customizing)います。
 
 
 ### _layouts/default.html
+
+[caymanの公式サイト](https://github.com/pages-themes/cayman)から、`_layouts/default.html`をコピーして必要のない行などを削除します。
+
+### assets/css/style.scss
+
+[caymanの公式サイト](https://github.com/pages-themes/cayman)から、`assets/css/style.scss`をコピーして（最初の4行のみが記されている）、続けてスタイルシートを作成します。
 
 
 
