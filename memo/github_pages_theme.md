@@ -18,7 +18,7 @@ GitHub Pagesでは、`README.md` が自動で `index.html` に変換されて公
 　   └── 2-×××.md（→2-×××.html に変換される）
 ```
 
-さらに、いくつかの設定ファイルを置くことでウェブサイトの見た目を変更することができます。
+さらに、いくつかの設定ファイルを置くことでウェブサイトの見た目を変更することができます。変更したいものだけ変更すれば、デフォルトから上書きされます。
 
 
 ### _config.yml
@@ -38,10 +38,22 @@ description: "太田俊二（早大人間環境）:　雑多な記録"
 ### _layouts/default.html
 
 [caymanの公式サイト](https://github.com/pages-themes/cayman)から、`_layouts/default.html`をコピーして必要のない行などを削除します。
+- デフォルトの header が重たいので、GitHubのソースを参照する箇所を削除しました。
+- デフォルトの footer にもGitHubのソースを参照する箇所があるので削除しました。
+
 
 ### assets/css/style.scss
 
-[caymanの公式サイト](https://github.com/pages-themes/cayman)から、`assets/css/style.scss`をコピーして（最初の4行のみが記されている）、続けてスタイルシートを作成します。
-
+[caymanの公式サイト](https://github.com/pages-themes/cayman)から、`assets/css/style.scss`をコピーして（最初の4行のみが記されている）、続けてスタイルシートを作成します。headerを中心に独自色を出してみます。
+```
+.page-header{
+    background-image:linear-gradient(to right, #d55d64 0%, #e49129 50%, #c0671c 100%);
+    text-align: center; /* 中央揃えを維持 */
+    padding-top: 15px; /* 上部余白 */
+    padding-bottom: 5px; /* 下部余白を同じ値にすると下部余白が広くなる（フォントのせい？） */
+    margin: 0 auto; /* 中央配置を維持 */
+    height: auto;  /* 必要に応じて高さを自動調整, height: 50px; と指定してもよい*/ 
+};
+```
 
 
