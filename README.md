@@ -5,10 +5,9 @@
 
 最新の投稿:
 
-	- [不可視ファイルをgitで追跡しないようにする](https://www.gesw.org/memo/dotDS_Store.html)
-	
-	- [Python標準のCSVモジュールの非該当処理](https://www.gesw.org/memo/standard-csv.html)
-	
+	- [不可視ファイルをgitで追跡しないようにする](https://www.gesw.org/memo/dotDS_Store.html) <pr>
+	- [Python標準のCSVモジュールの非該当処理](https://www.gesw.org/memo/standard-csv.html) <pr>
 	
 	
-マークダウンからのHTML変換があるので、現時点では手動更新です。
+	
+GitHub Pages は、マークダウンからのHTML変換があるのと、静的なウェブペイジであるので、現時点では手動更新です。時間があるときに、`README.md`を自動生成するスクリプトを書く予定です。
