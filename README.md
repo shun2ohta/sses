@@ -6,6 +6,6 @@
 -------
 ### 最新の記事:
 
-- [不可視ファイルをgitで追跡しないようにする](https://www.gesw.org/memo/dotDS_Store.html)
 - [GitHub Pages で公開するペイジの体裁を整える](https://www.gesw.org/memo/github_pages_theme.html)
+- [不可視ファイルをgitで追跡しないようにする](https://www.gesw.org/memo/dotDS_Store.html)
 - [Python標準のCSVモジュールの非該当処理](https://www.gesw.org/memo/standard-csv.html)
