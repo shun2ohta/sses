@@ -1,4 +1,5 @@
 import os
+from datetime import datetime
 
 # README.md のパス
 readme_path = "README.md"
@@ -8,16 +9,15 @@ memo_dir = "memo"
 base_url = "https://www.gesw.org/memo/"
 
 def update_readme_with_links():
-    # memo/ 以下の .md ファイルを取得
+    # memo/ 以下の .md ファイルを取得し更新日時を確認
     md_files = [
-        f for f in os.listdir(memo_dir)
+        (f, os.path.getmtime(os.path.join(memo_dir, f)))
+        for f in os.listdir(memo_dir)
         if f.endswith(".md")
     ]
 
-    # ファイルが見つからなかった場合
-    if not md_files:
-        print("No .md files found in memo/ directory.")
-        return
+    # 更新日時でソート（新しい順）
+    sorted_files = sorted(md_files, key=lambda x: x[1], reverse=True)
 
     # README.md の既存内容を読み込む
     if os.path.exists(readme_path):
@@ -28,7 +28,7 @@ def update_readme_with_links():
 
     # README.md に追加するリンクのリストを作成
     new_links = []
-    for md_file in md_files:
+    for md_file, mtime in sorted_files:
         file_path = os.path.join(memo_dir, md_file)
         
         # ファイルの1行目を取得
@@ -37,10 +37,13 @@ def update_readme_with_links():
         
         # `#` を無視した内容を取得
         cleaned_line = first_line.lstrip("#").strip()
-        
+
+        # 更新日時を整形
+        last_updated = datetime.fromtimestamp(mtime).strftime("%m月%d日%H時")
+
         # HTMLリンク形式を生成
         html_file = md_file.replace(".md", ".html")
-        link = f"- [{cleaned_line}]({base_url}{html_file})\n"
+        link = f"- [{cleaned_line}]({base_url}{html_file})（{last_updated}更新）\n"
         
         # 重複チェック
         if link not in readme_content:
