@@ -17,6 +17,7 @@ find ./ \( -name ".DS_Store" -or -name "._*" \)
 ```
 find ./ \( -name ".DS_Store" -or -name "._*" \) | wc
 ```
+不可視ファイルの一覧を見たい場合には、`echo`に引き渡します。
 ```
 find ./ \( -name ".DS_Store" -or -name "._*" \) | xargs echo rm -rf
 ```
