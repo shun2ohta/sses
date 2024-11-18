@@ -23,15 +23,16 @@ GitHub Pagesでは、`README.md` が自動で `index.html` に変換されて公
 
 ### _config.yml
 
-公式のペイジにある推奨テーマは下記の1行を書くだけでCSS等が一括で反映されます。
+公式のペイジにある推奨テーマは下記の1行を書くだけでCSS等が一括で反映されます。この例では、caymanというテーマを使っています。
 ```
 theme: jekyll-theme-cayman
 ```
-ほかに、`title`と`description`を設定することもできます。
----
+ほかに、`title`と`description`を設定することもできます。各マークダウンファイルから生成されるhtmlファイルに自動で埋め込まれます。
+```
 title: "早大人間環境・太田俊二"
 description: "太田俊二（早大人間環境）:　雑多な記録"
----
+```
+ちなみに、[caymanのデフォルトの見た目は公式サイト](https://github.com/pages-themes/cayman)をご覧ください。ほかに[サポートされているテーマは公式サイト](https://pages.github.com/themes/)の一覧のペイジにあります。
 
 
 
