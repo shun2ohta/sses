@@ -7,7 +7,7 @@
     background-image:linear-gradient(to right, #d55d64 0%, #e49129 50%, #c0671c 100%);
     text-align: center; /* 中央揃えを維持 */
     padding-top: 15px; /* 上部余白 */
-    padding-bottom: 10px; /* 下部余白を同じ値にすると下部余白が広くなる（フォントのせい？） */
+    padding-bottom: 7px; /* 下部余白を同じ値にすると下部余白が広くなる（フォントのせい？） */
     margin: 0 auto; /* 中央配置を維持 */
     height: auto;  /* 必要に応じて高さを自動調整, height: 50px; と指定してもよい*/ 
 };
