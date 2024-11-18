@@ -12,7 +12,7 @@
     height: auto;  /* 必要に応じて高さを自動調整, height: 50px; と指定してもよい*/ 
 };
 .main-content h1, .main-content h2, .main-content h3, .main-content h4, .main-content h5, .main-content h6{
-    color:#625793
+    color:#625793;
     font-weight: bold; /* ボールドタイプを適用 */
 }
 .project-name a,.project-name a:hover,.project-name a:visited{
