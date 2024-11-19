@@ -9,6 +9,14 @@ memo_dir = "memo"
 # 公開リンクのベースURL
 base_url = "https://www.gesw.org/memo/"
 
+def format_datetime(dt_str):
+    """日時を 'YYYY年MM月DD日HH時' に整形"""
+    try:
+        dt = datetime.strptime(dt_str, "%Y-%m-%d %H:%M:%S")
+        return dt.strftime("%Y年%m月%d日%H時")
+    except ValueError:
+        return dt_str  # フォーマットエラー時はそのまま返す
+
 def extract_metadata(filepath):
     """Markdownファイルからタイトル、公開日時、更新日時を抽出"""
     title = None
@@ -28,6 +36,12 @@ def extract_metadata(filepath):
             # タイトル、公開、更新が見つかれば解析を終了
             if title and published and updated:
                 break
+
+    # 日時を整形
+    if published:
+        published = format_datetime(published)
+    if updated:
+        updated = format_datetime(updated)
 
     return title, published, updated
 
