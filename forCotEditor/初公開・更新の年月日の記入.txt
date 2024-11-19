@@ -1,0 +1,3 @@
+CotEditorのスクリプトメニューから、Open Scripts Folderを選ぶと、~/Library/Application Scripts/com.coteditor.CotEditor/ にスクリプト（InsertLastUpdated.py）をおく
+
+すると、Script menu から InsertLastUpdated を選択することができるようになる。
