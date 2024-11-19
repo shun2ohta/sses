@@ -7,6 +7,7 @@
 ### 最新の記事:
 
 - [YAML frontmatter を使うべきかどうか？](https://www.gesw.org/memo/yaml_frontmatter.html)（2024年11月20日00時公開）
+- [削除のテスト](https://www.gesw.org/memo/del_test.html)（2024年11月20日00時公開）
 - [タイプスタンプのテスト](https://www.gesw.org/memo/timestamp_test.html)（2024年11月19日23時公開）
 - [GitHub Pages で公開するペイジの体裁を整える](https://www.gesw.org/memo/github_pages_theme.html)（2024年11月18日18時公開、2024年11月19日01時更新）
 - [不可視ファイルをgitで追跡しないようにする](https://www.gesw.org/memo/dotDS_Store.html)（2024年11月18日16時公開）
