@@ -7,7 +7,7 @@ readme_path = "README.md"
 # メモディレクトリのパス
 memo_dir = "memo"
 # 公開リンクのベースURL
-base_url = "https://hogehoge.jp/memo/"
+base_url = "https://www.gesw.org/memo/"
 
 def extract_metadata(filepath):
     """Markdownファイルからタイトル、公開日時、更新日時を抽出"""
