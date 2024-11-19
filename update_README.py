@@ -68,8 +68,8 @@ def update_readme_with_links():
         html_file = md_file.replace(".md", ".html")
         link_url = f"{base_url}{html_file}"
 
-        # 更新日時を整形
-        updated_time = datetime.fromtimestamp(mtime).strftime("%m月%d日%H時")
+        # 更新日時を整形（YYYY年MM月DD日HH時）
+        updated_time = datetime.fromtimestamp(mtime).strftime("%Y年%m月%d日%H時")
 
         # 既存リンクを探して公開日時を保持
         existing_link = next((link for link in existing_links if link["url"] == link_url), None)
