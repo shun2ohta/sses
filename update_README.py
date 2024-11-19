@@ -1,30 +1,35 @@
 import os
-import re
 from datetime import datetime
+import re
 
 # README.md のパス
 readme_path = "README.md"
 # メモディレクトリのパス
 memo_dir = "memo"
 # 公開リンクのベースURL
-base_url = "https://www.gesw.org/memo/"
+base_url = "https://hogehoge.jp/memo/"
 
-def extract_timestamps(filepath):
-    """Markdownファイルから公開日時と更新日時を抽出"""
+def extract_metadata(filepath):
+    """Markdownファイルからタイトル、公開日時、更新日時を抽出"""
+    title = None
     published = None
     updated = None
 
     with open(filepath, "r", encoding="utf-8") as f:
         for line in f:
-            if line.startswith("公開:"):
+            line = line.strip()
+            # タイトル行を検出: # が1〜4個
+            if re.match(r"^#{1,4} ", line):
+                title = re.sub(r"^#{1,4} ", "", line).strip()
+            elif line.startswith("公開:"):
                 published = line.replace("公開:", "").strip()
             elif line.startswith("更新:"):
                 updated = line.replace("更新:", "").strip()
-            # 公開と更新が見つかれば解析を終了
-            if published and updated:
+            # タイトル、公開、更新が見つかれば解析を終了
+            if title and published and updated:
                 break
 
-    return published, updated
+    return title, published, updated
 
 def update_readme_with_links():
     # memo/ 以下の .md ファイルを取得
@@ -42,8 +47,8 @@ def update_readme_with_links():
     for md_file in md_files:
         file_path = os.path.join(memo_dir, md_file)
 
-        # 公開日時と更新日時を抽出
-        published_time, updated_time = extract_timestamps(file_path)
+        # タイトル、公開日時、更新日時を抽出
+        title, published_time, updated_time = extract_metadata(file_path)
         if not published_time:
             print(f"警告: {md_file} に公開日時がありません。スキップします。")
             continue
@@ -52,6 +57,10 @@ def update_readme_with_links():
         if not updated_time:
             updated_time = published_time
 
+        # タイトルがない場合はファイル名を使用（ただし、基本的にタイトルは必須）
+        if not title:
+            title = md_file.replace(".md", "")
+
         # HTMLリンク形式を生成
         html_file = md_file.replace(".md", ".html")
         link_url = f"{base_url}{html_file}"
@@ -59,11 +68,11 @@ def update_readme_with_links():
         # 公開日時と更新日時のフォーマットによるリンク生成
         if published_time == updated_time:
             updated_links.append(
-                f"- [{md_file.replace('.md', '')}]({link_url})（{published_time}公開）\n"
+                f"- [{title}]({link_url})（{published_time}公開）\n"
             )
         else:
             updated_links.append(
-                f"- [{md_file.replace('.md', '')}]({link_url})（{published_time}公開、{updated_time}更新）\n"
+                f"- [{title}]({link_url})（{published_time}公開、{updated_time}更新）\n"
             )
 
     # 公開日時順（新しい順）で並び替え
