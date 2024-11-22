@@ -29,7 +29,7 @@ find ./ \( -name ".DS_Store" -or -name "._*" \) | xargs rm -rf
 ```
 find ./ \( -name ".DS_Store" -or -name "._*" \) -print0 | xargs -0 rm -rf
 ```
-あるいはfindコマンドの機能を使って（パイプを使わないで）もよいでしょう。
+あるいは`find`コマンドの機能を使って（パイプを使わないで）もよいでしょう。
 ```
 find ./ \( -name ".DS_Store" -or -name "._*" \) -exec rm -rf {} +
 ```
