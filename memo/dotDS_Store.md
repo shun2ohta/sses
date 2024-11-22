@@ -29,6 +29,10 @@ find ./ \( -name ".DS_Store" -or -name "._*" \) | xargs rm -rf
 ```
 find ./ \( -name ".DS_Store" -or -name "._*" \) -print0 | xargs -0 rm -rf
 ```
+あるいはfindコマンドの機能を使って（パイプを使わないで）もよいでしょう。
+```
+find ./ \( -name ".DS_Store" -or -name "._*" \) -exec rm -rf {} +
+```
 
 これで、pushすれば、不可視ファイルがクローン環境からなくなり、以降はgitの探索の対象から外れます。2番の操作に不安がある場合には、シェルに慣れている人に遠隔で対処してもらったのち、pull request を送ってもらい、merge しても同じです。
 
