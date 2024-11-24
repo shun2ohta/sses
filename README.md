@@ -6,6 +6,7 @@
 -------
 ### 最新の記事:
 
+- [GitHub で Google Colaboratory の Jupyter Notebook を管理する](https://www.gesw.org/memo/Colab-GitHub-VScode.html)（2024年11月24日12時公開）
 - [YAML frontmatter を使うべきかどうか？](https://www.gesw.org/memo/yaml_frontmatter.html)（2024年11月20日00時公開）
 - [削除のテスト](https://www.gesw.org/memo/del_test.html)（2024年11月20日00時公開）
 - [タイプスタンプのテスト](https://www.gesw.org/memo/timestamp_test.html)（2024年11月19日23時公開）
