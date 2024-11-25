@@ -73,7 +73,7 @@ def update_readme_with_links():
         if not updated_time:
             updated_time = published_time
 
-        # タイトルがない場合はファイル名を使用（ただし、基本的にタイトルは必須）
+        # タイトルがない場合はファイル名を使用（ただし、原則としてタイトルは必須）
         if not title:
             title = md_file.replace(".md", "")
 
@@ -91,7 +91,7 @@ def update_readme_with_links():
                 f"- [{title}]({link_url})（{published_time}公開、{updated_time}更新）\n"
             )
 
-    # 公開日時順（新しい順）で並び替え
+    # 公開日時順（新しい順）で並べ替え
     updated_links = sorted(updated_links, key=lambda x: x.split("（")[1].split("公開")[0].strip(), reverse=True)
 
     # README.md を再構築
