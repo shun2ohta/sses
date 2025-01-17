@@ -6,21 +6,21 @@
 卒論など、フォーマットが決められたものではWordなどのアプリケーションを使わざるを得ないです。不可視の一時ファイルがファイルを開いて入り限りは残っているので、gitの追跡対象となります。これを除外するようにしたいです。
 
 ```
-# OS-generated files
+### OS-generated files
 .DS_Store
 
-# Word temporary
+### Word temporary
 ~$*.doc*
 
-# Word Auto Backup File
+### Word Auto Backup File
 Backup of *.doc*
 
-# Excel temporary
+### Excel temporary
 ~$*.xls*
 
-# Excel Backup File
+### Excel Backup File
 *.xlk
 
-# PowerPoint temporary
+### PowerPoint temporary
 ~$*.ppt*
 ```
