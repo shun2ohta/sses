@@ -19,7 +19,7 @@ Visual Studio Code（VSCode）ベースで簡易な開発環境をローカル�
 
 3. Anaconda 環境をインストールし、一般的なライブラリを活用する
 
-    matplotlib や NumPy、pandas などの外部ライブラリを個別にインストールしてももちろん問題はないですが、Anacondaで一括インストールするほうが楽で研究室内で環境を統一しやすいです。
+    matplotlib や NumPy、pandas などの外部ライブラリを個別にインストールしてももちろん問題はないですが、Anacondaで一括インストールするほうが依存関係やヴァージョン違いが少なく、研究室内で環境を統一しやすいです。
 
     [Anacondaのサイト](https://www.anaconda.com/download)から、Mac版64ビットApple Silicone用の`Anaconda3-*-MacOSX-arm64.pkg`をダウンロードしてインストールします。登録画面から電子メイルアドレスを入力すると、ダウンロードサイトが書かれたメイルが送られてきます。インストール後にAnacondaを開くとアップデートするかどうか聞かれます。アップデートしてもいいですが、Navigatorを利用する予定はないので、どちらでも構いません。また、その後「sign in」画面が出てきますが、何もしないで Navigator 自体も終了してください。
 
