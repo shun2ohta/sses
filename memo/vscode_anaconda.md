@@ -15,7 +15,7 @@ Visual Studio Code（VSCode）ベースで簡易な開発環境をローカル�
     
     実習用の環境は Google Colab であるので、Jupyter notebook の機能拡張（4個）もインストールします。これだけで、Jupyter Notebook のファイル（ipynb）を扱うことができます。
     
-    無料で Copilot も使えるので、おすすめに従って機能拡張をしておくとよいでしょう（2025年1月現在で、デフォルトが ChatGPT 4oです）。
+    無料で Copilot も使えるので、おすすめに従って機能拡張をインストールしておくとよいでしょう（2025年1月現在で、デフォルトが ChatGPT 4oです）。
 
 3. Anaconda 環境をインストールし、一般的なライブラリを活用する
 
