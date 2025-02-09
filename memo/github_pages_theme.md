@@ -36,7 +36,7 @@ theme: jekyll-theme-cayman
 ほかに、`title`と`description`を設定することもできます。各マークダウンファイルから生成されるhtmlファイルに自動で埋め込まれます。
 ```
 title: "早大人間環境・太田俊二"
-description: "太田俊二（早大人間環境）:　雑多な記録"
+description: "早大 地球環境システム論・生物圏生態学研究室"
 ```
 ちなみに、[caymanのデフォルトの見た目は公式サイト](https://pages-themes.github.io/cayman/)をご覧ください。ほかに[サポートされているテーマは公式サイト](https://pages.github.com/themes/)の一覧のペイジにあります。[カスタマイズの方法は公式サイトにも記されて](https://github.com/pages-themes/cayman?tab=readme-ov-file#customizing)います。
 
