@@ -28,9 +28,9 @@ def extract_metadata(filepath):
     with open(filepath, "r", encoding="utf-8") as f:
         for line in f:
             line = line.strip()
-            # タイトル行を検出: # が1〜4個
-            if re.match(r"^#{1,4} ", line):
-                title = re.sub(r"^#{1,4} ", "", line).strip()
+            # タイトル行を検出: # が1〜2個
+            if re.match(r"^#{1,2} ", line):
+                title = re.sub(r"^#{1,2} ", "", line).strip()
             elif line.startswith("公開:"):
                 published = line.replace("公開:", "").strip()
             elif line.startswith("更新:"):
