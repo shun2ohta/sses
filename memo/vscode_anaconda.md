@@ -5,15 +5,15 @@
 
 Visual Studio Code（VSCode）ベースで簡易な開発環境をローカルにつくります。なるべく手数が少ないことが条件で、以降レヴェルに応じてカスタマイズをしやすい方法を選択します。
 
-1. VSCode をインストールする
+- VSCode をインストールする
 
     VSCodeを[サイトからダウンロード](https://azure.microsoft.com/ja-jp/products/visual-studio-code)します。Mac版Apple Siliconeのzipファイルを選ぶとよいでしょう。Application/ にインストールし、好みでDockに追加しておきます。なお、同時に Command line Tools もインストールしておきます。
 
-2. VSCode をエディタとして使い、OS標準のpythonで使う
+- VSCode をエディタとして使い、OS標準のpythonで使う
 
     画面左側の拡張機能のロゴをクリックして「python」と検索します。Microsoft の python 関係のツールだけで構わないのでインストールします（8〜9個あります）。組み込み関数や標準ライブラリ（random, csv など）を使うだけの場合はこれで問題ありません。なお、OS標準でインストールされているpythonは、`/usr/bin/python3` です。
 
-3. Anaconda 環境をインストールし、一般的なライブラリを活用する
+- Anaconda 環境をインストールし、一般的なライブラリを活用する
 
     matplotlib や NumPy, pandas などの外部ライブラリを個別にインストールしてももちろん問題はないですが、Anacondaで一括インストールするほうが楽で研究室内で環境を統一しやすいです。
 
