@@ -9,15 +9,15 @@ Visual Studio Code（VSCode）ベースで簡易な開発環境をローカル�
 
 VSCodeを[サイトからダウンロード](https://code.visualstudio.com/)します。Mac版Apple Siliconeのzipファイルを選ぶとよいでしょう。Application/ にインストールし、好みでDockに追加しておきます。なお、同時に Command line tools もインストールしておきます。
 
-### 2. VSCode をエディタとして使い、OS標準のpythonで使う
+### 2. VSCode をエディタとして使い、OS標準の Python を使う
 
-画面左側の拡張機能のロゴをクリックして「python」と検索します。Microsoft の python 関係のツールだけで構わないのでインストールします（4〜5個あります）。組み込み関数や標準ライブラリ（random, csv など）を使うだけの場合はこれで問題ありません。なお、macOS標準でインストールされているpythonは、`/usr/bin/python3` です。Version 2 までの `/usr/bin/python` ではないので、注意が必要です。
+画面左側の拡張機能のロゴをクリックして「python」と検索します。Microsoft の Python 関係のツールだけで構わないのでインストールします（4〜5個あります）。組み込み関数や標準ライブラリ（random, csv など）を使うだけの場合はこれで問題ありません。なお、macOS標準でインストールされているpythonは、`/usr/bin/python3` です。Version 2 までの `/usr/bin/python` ではないので、注意が必要です。
     
 実習用の環境は Google Colab であるので、Jupyter Notebook の機能拡張（4個; 「Jupyter」で検索し、まずはMicrosoftの標準のものをインストールするだけで構いません）もインストールします。これだけで、Jupyter Notebook のファイル（ipynb）を扱うことができます。
     
 蛇足ですが、無料で Copilot も使えるので、おすすめにしたがって機能拡張をインストールしておくとよいでしょう（2025年1月現在で、デフォルトが ChatGPT 4oです）。もちろん必須ではないです。
 
-### 3. Anaconda 環境をインストールし、一般的なライブラリを活用する
+### 3. Anaconda 環境をインストールし、一般的なライブラリを VSCode 経由で活用する
 
 matplotlib や NumPy、pandas などの外部ライブラリを個別にインストールしてももちろん問題はないですが、Anacondaで一括インストールするほうが依存関係やヴァージョン違いが少なく、研究室内で環境を統一しやすいです。
 
