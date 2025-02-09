@@ -7,11 +7,11 @@ Visual Studio Code（VSCode）ベースで簡易な開発環境をローカル�
 
 1. VSCode をインストールする
 
-    VSCodeを[サイトからダウンロード](https://azure.microsoft.com/ja-jp/products/visual-studio-code)します。Mac版Apple Siliconeのzipファイルを選ぶとよいでしょう。Application/ にインストールし、好みでDockに追加しておきます。なお、同時に Command line tools もインストールしておきます。
+    VSCodeを[サイトからダウンロード](https://code.visualstudio.com/)します。Mac版Apple Siliconeのzipファイルを選ぶとよいでしょう。Application/ にインストールし、好みでDockに追加しておきます。なお、同時に Command line tools もインストールしておきます。
 
 2. VSCode をエディタとして使い、OS標準のpythonで使う
 
-    画面左側の拡張機能のロゴをクリックして「python」と検索します。Microsoft の python 関係のツールだけで構わないのでインストールします（4〜5個あります）。組み込み関数や標準ライブラリ（random, csv など）を使うだけの場合はこれで問題ありません。なお、OS標準でインストールされているpythonは、`/usr/bin/python3` です。
+    画面左側の拡張機能のロゴをクリックして「python」と検索します。Microsoft の python 関係のツールだけで構わないのでインストールします（4〜5個あります）。組み込み関数や標準ライブラリ（random, csv など）を使うだけの場合はこれで問題ありません。なお、macOS標準でインストールされているpythonは、`/usr/bin/python3` です。
     
     実習用の環境は Google Colab であるので、Jupyter notebook の機能拡張（4個）もインストールします。これだけで、Jupyter Notebook のファイル（ipynb）を扱うことができます。
     
