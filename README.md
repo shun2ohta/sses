@@ -6,7 +6,7 @@
 -------
 ### 最新の記事:
 
-- [Visual Studio Code + Anaconda 環境の構築](https://www.gesw.org/memo/vscode_anaconda.html)（2025年02月09日11時公開）
+- [Visual Studio Code + Anaconda で開発環境を構築する](https://www.gesw.org/memo/vscode_anaconda.html)（2025年02月09日11時公開）
 - [M$ Officeの一時ファイルをgitで追跡しないようにする](https://www.gesw.org/memo/del_office-tmp.html)（2025年01月17日00時公開、2025年01月17日11時更新）
 - [GitHub で Google Colaboratory の Jupyter Notebook を管理する](https://www.gesw.org/memo/Colab-GitHub-VScode.html)（2024年11月24日12時公開）
 - [YAML frontmatter を使うべきかどうか？](https://www.gesw.org/memo/yaml_frontmatter.html)（2024年11月20日00時公開）

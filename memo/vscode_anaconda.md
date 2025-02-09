@@ -1,4 +1,4 @@
-## Visual Studio Code + Anaconda 環境の構築
+## Visual Studio Code + Anaconda で開発環境を構築する
 
 公開: 2025-02-09 11:57:42
 
