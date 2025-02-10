@@ -6,7 +6,7 @@
 -------
 ### 最新の記事:
 
-- [VSCode でマークダウン記法の書類を編集し、プレビューする](https://www.gesw.org/memo/PreviewMarkdown.html)（2025年02月10日21時公開）
+- [VSCode でプレビューしながらマークダウン記法の書類を編集する](https://www.gesw.org/memo/PreviewMarkdown.html)（2025年02月10日21時公開）
 - [Visual Studio Code + Anaconda で開発環境を構築する](https://www.gesw.org/memo/vscode_anaconda.html)（2025年02月09日11時公開）
 - [導入すべきPython開発環境を選択する](https://www.gesw.org/memo/PythonDeveolpmentEnvironment.html)（2025年02月07日10時公開、2025年02月09日21時更新）
 - [M$ Officeの一時ファイルをgitで追跡しないようにする](https://www.gesw.org/memo/del_office-tmp.html)（2025年01月17日00時公開、2025年01月17日11時更新）
