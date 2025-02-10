@@ -13,7 +13,13 @@ Pythonを使った処理を行う場合、Google Colaboraoty（Colab）は驚く
 
 Colab で作成した（あるいは作成途中の）Jupyter Notebook を GitHub 連携するには、「ファイル」－「GitHubにコピーを保存」を選びます。Commit 画面が表示されるので、対象とするリポジトリとブランチを指定し、Commit comment を書いて OK を押します。これで GitHub でいう Push が実行されます。ウェブなどの情報の多くもここで止まっています。これだけであれば、単に GitHub にバックアップを置いているだけに等しく、メリットを感じることがほとんどありません。
 
-GitHub連携をしたファイルに保存をします。通常の「ドライブにコピー」ではなく、ファイル名の横に表示されている「変更内容を保持するには GitHub に保存してください」という指示に従います。しかしながら、そのようなメニューはありません。通常の「ファイル」－「保存」を選ぶか、Command＋S を実行します。あるいは「変更内容を保持するには GitHub に保存してください」という部分をクリックします。すると、次のようなポップアップメニューが出てきますので、Commit Comment を書いて、Push します。
+GitHub連携をしたファイルに保存をします。通常の「ドライブにコピー」ではなく、ファイル名の横に表示されている「変更内容を保持するには GitHub に保存してください」という指示に従います。しかしながら、そのようなメニューはありません。通常の「ファイル」－「保存」を選ぶか、Command＋S を実行します。あるいは「変更内容を保持するには GitHub に保存してください」という部分をクリックします。
+
+<div style="text-align: center;">
+  <img src="https://www.gesw.org/img/memo/SaveColabFile2GitHub.png" alt="Save a Colab File in GitHub" width="80%">
+</div>
+
+すると、次のようなポップアップメニューが出てきますので、Commit Comment を書いて、Push します。
 
 <div style="text-align: center;">
   <img src="https://www.gesw.org/img/memo/Colab2GitHub.png" alt="Connection between Colab and GitHub" width="50%">
