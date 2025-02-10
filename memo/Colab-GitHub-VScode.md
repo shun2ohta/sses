@@ -30,5 +30,5 @@ GitHub Desktop などでローカルにクローンを作成します。VSCode�
 
 似たようなことを考えている人はあちこちにいらっしゃるようです。
 
-![5. Google colab, GitHub, VSCodeの連携](https://programmingforever.hatenablog.com/entry/2024/08/01/131311)
+[5. Google colab, GitHub, VSCodeの連携](https://programmingforever.hatenablog.com/entry/2024/08/01/131311)
 
