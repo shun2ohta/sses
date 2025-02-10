@@ -6,6 +6,10 @@
 header, .site-header, footer, .site-footer {
   background-color: transparent !important;
 }
+.page-header, .page-footer {
+  position: relative;
+  z-index: 10;
+}
 .page-header{
     background-image:linear-gradient(to right, #d55d64 0%, #e49129 50%, #c0671c 100%);
     text-align: center; /* 中央揃えを維持 */
