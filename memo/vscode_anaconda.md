@@ -8,7 +8,9 @@ Visual Studio Code（VSCode）ベースで簡易な開発環境をローカル�
 ### 1. VSCode をインストールする
 
 VSCodeを[サイトからダウンロード](https://code.visualstudio.com/Download#)します。Mac版Apple Siliconeのzipファイルを選ぶとよいでしょう。解凍後、Application/ にインストールし（＝移動させ）、好みでDockに追加しておきます。なお、Pythonの機能拡張をインストールすると自動的に Xcode の Command line developer tools のインストールを促してくるので、指示にしたがってインストールしておきます（Appleによる機能です）。
-![Command Line Developer Tools](https://www.gesw.org/img/memo/InstallCommandLineTools.png)
+<div style="text-align: center;">
+  <img src="https://www.gesw.org/img/memo/InstallCommandLineTools.png" alt="Command Line Developer Tools" width="50%">
+</div>
 
 ### 2. VSCode をエディタとして使い、OS標準の Python を使う
 
