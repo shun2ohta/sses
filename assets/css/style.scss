@@ -3,8 +3,12 @@
 
 @import "{{ site.theme }}";
 
-.page-header{
+header,
+.site-header {
     background-color: transparent !important;
+}
+
+.page-header{
     background-image:linear-gradient(to right, #d55d64 0%, #e49129 50%, #c0671c 100%);
     text-align: center; /* 中央揃えを維持 */
     padding-top: 15px; /* 上部余白 */
