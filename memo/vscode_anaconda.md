@@ -11,7 +11,7 @@ VSCodeを[サイトからダウンロード](https://code.visualstudio.com/Downl
 
 ### 2. VSCode をエディタとして使い、OS標準の Python を使う
 
-画面左側の拡張機能のロゴをクリックして「python」と検索します。Microsoft の Python 関係のツールだけで構わないのでインストールします（4〜5個あります）。組み込み関数や標準ライブラリ（random, csv など）を使うだけの場合はこれで問題ありません。なお、macOS標準でインストールされているpythonは、`/usr/bin/python3` です。Version 2 までの `/usr/bin/python` ではないので、注意が必要です。
+画面左側の拡張機能のロゴをクリックして「python」と検索します。Microsoft の Python 関係のツールだけで構わないのでインストールします（4〜5個ありますが、本体のpythonをインストールすると自動で関連する拡張機能もインストールされます）。組み込み関数や標準ライブラリ（random, csv など）を使うだけの場合はこれで問題ありません。なお、macOS標準でインストールされているpythonは、`/usr/bin/python3` です。Version 2 までの `/usr/bin/python` ではないので、注意が必要です。
     
 実習用の環境は Google Colab であるので、Jupyter Notebook の機能拡張（4個; 「Jupyter」で検索し、まずはMicrosoftの標準のものをインストールするだけで構いません）もインストールします。これだけで、Jupyter Notebook のファイル（ipynb）を扱うことができます。最初に実行すると、ipy kernel をインストールするように促されますので、指示にしたがいます。
     
