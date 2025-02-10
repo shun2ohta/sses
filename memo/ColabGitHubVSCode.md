@@ -16,7 +16,7 @@ Colab で作成した（あるいは作成途中の）Jupyter Notebook を GitHu
 GitHub連携をしたファイルに保存をします。通常の「ドライブにコピー」ではなく、ファイル名の横に表示されている「変更内容を保持するには GitHub に保存してください」という指示に従います。しかしながら、そのようなメニューはありません。通常の「ファイル」－「保存」を選ぶか、Command＋S を実行します。あるいは「変更内容を保持するには GitHub に保存してください」という部分をクリックします。
 
 <div style="text-align: center;">
-  <img src="https://www.gesw.org/img/memo/SaveColabFile2GitHub.png" alt="Save a Colab File in GitHub" width="80%">
+  <img src="https://www.gesw.org/img/memo/SaveColabFile2GitHub.png" alt="Save a Colab File in GitHub" width="50%">
 </div>
 
 すると、次のようなポップアップメニューが出てきますので、Commit Comment を書いて、Push します。
