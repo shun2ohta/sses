@@ -6,7 +6,7 @@
 -------
 ### 最新の記事:
 
-- [GitHub Desktop の基本的な使いかた](https://www.gesw.org/memo/RevisionManagement.html)（2025年02月12日10時公開、2025年02月13日22時更新）
+- [GitHub Desktop の基本的な使いかた](https://www.gesw.org/memo/RevisionManagement.html)（2025年02月12日10時公開）
 - [VSCode でプレビューしながらマークダウン記法の書類を編集する](https://www.gesw.org/memo/PreviewMarkdown.html)（2025年02月10日21時公開）
 - [Visual Studio Code + Anaconda で開発環境を構築する](https://www.gesw.org/memo/vscode_anaconda.html)（2025年02月09日11時公開）
 - [導入すべきPython開発環境を選択する](https://www.gesw.org/memo/PythonDeveolpmentEnvironment.html)（2025年02月07日10時公開、2025年02月09日21時更新）
