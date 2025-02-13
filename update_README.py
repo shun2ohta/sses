@@ -32,11 +32,13 @@ def extract_metadata(filepath):
             if re.match(r"^#{1,2} ", line):
                 title = re.sub(r"^#{1,2} ", "", line).strip()
             elif line.startswith("公開:"):
-                published = line.replace("公開:", "").strip()
-            elif line.startswith("更新:"):
-                updated = line.replace("更新:", "").strip()
+                # 「公開: YYYY-MM-DD HH:MM:SS（更新: YYYY-MM-DD HH:MM:SS）」の形式かチェック
+                match = re.match(r"公開: (\d{4}-\d{2}-\d{2} \d{2}:\d{2}:\d{2})(（更新: (\d{4}-\d{2}-\d{2} \d{2}:\d{2}:\d{2})）)?", line)
+                if match:
+                    published = match.group(1)  # 公開日時
+                    updated = match.group(3) if match.group(3) else None  # 更新日時（なければ None）
             # タイトル、公開、更新が見つかれば解析を終了
-            if title and published and updated:
+            if title and published:
                 break
 
     # 日時を整形
@@ -82,7 +84,7 @@ def update_readme_with_links():
         link_url = f"{base_url}{html_file}"
 
         # 公開日時と更新日時のフォーマットによるリンク生成
-        if published_time == updated_time:
+        if updated_time == published_time:
             updated_links.append(
                 f"- [{title}]({link_url})（{published_time}公開）\n"
             )

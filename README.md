@@ -6,13 +6,13 @@
 -------
 ### 最新の記事:
 
-- [GitHub Desktop の基本的な使いかた](https://www.gesw.org/memo/RevisionManagement.html)（2025年02月12日10時公開）
+- [GitHub Desktop の基本的な使いかた](https://www.gesw.org/memo/RevisionManagement.html)（2025年02月12日10時公開、2025年02月13日12時更新）
 - [VSCode でプレビューしながらマークダウン記法の書類を編集する](https://www.gesw.org/memo/PreviewMarkdown.html)（2025年02月10日21時公開）
 - [Visual Studio Code + Anaconda で開発環境を構築する](https://www.gesw.org/memo/vscode_anaconda.html)（2025年02月09日11時公開）
 - [導入すべきPython開発環境を選択する](https://www.gesw.org/memo/PythonDeveolpmentEnvironment.html)（2025年02月07日10時公開、2025年02月09日21時更新）
-- [M$ Officeの一時ファイルをgitで追跡しないようにする](https://www.gesw.org/memo/del_office-tmp.html)（2025年01月17日00時公開、2025年01月17日11時更新）
+- [M$ Officeの一時ファイルをgitで追跡しないようにする](https://www.gesw.org/memo/del_office-tmp.html)（2025年01月17日00時公開）
 - [Google Colaboratory の Jupyter Notebook を GitHub で管理する](https://www.gesw.org/memo/ColabGitHubVSCode.html)（2024年11月24日12時公開、2025年02月10日20時更新）
 - [YAML frontmatter を使うべきかどうか？](https://www.gesw.org/memo/yaml_frontmatter.html)（2024年11月20日00時公開）
-- [GitHub Pages で公開するペイジの体裁を整える](https://www.gesw.org/memo/github_pages_theme.html)（2024年11月18日18時公開、2024年11月19日01時更新）
+- [GitHub Pages で公開するペイジの体裁を整える](https://www.gesw.org/memo/github_pages_theme.html)（2024年11月18日18時公開）
 - [不可視ファイルをgitで追跡しないようにする](https://www.gesw.org/memo/dotDS_Store.html)（2024年11月18日16時公開、2024年11月23日10時更新）
 - [Python標準のCSVモジュールの非該当処理](https://www.gesw.org/memo/standard-csv.html)（2024年11月18日11時公開）
