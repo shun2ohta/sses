@@ -7,7 +7,10 @@
 
 続いて、VSCodeで編集をしています。ここで、Commitしてみます。その後、Undo Commit してください。Amendも試してみてください。
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 一度、Pushしてしまったものを Revert します。
+=======
+>>>>>>> parent of ca5624b (Revert "TestファイルのCommit")
 =======
 >>>>>>> parent of ca5624b (Revert "TestファイルのCommit")
