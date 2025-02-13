@@ -1,20 +1,11 @@
 #!/usr/bin/python3
 
-import re
 import sys
+import re
 from datetime import datetime
-
-def format_datetime(dt_str):
-    """日時を 'YYYY年MM月DD日HH時MM分SS秒' に整形"""
-    try:
-        dt = datetime.strptime(dt_str, "%Y-%m-%d %H:%M:%S")
-        return dt.strftime("%Y年%m月%d日 %H:%M:%S")
-    except ValueError:
-        return dt_str  # フォーマットエラー時はそのまま返す
 
 def update_timestamp(file_path):
     now = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-    formatted_now = format_datetime(now)
 
     try:
         # ファイルを読み込む
@@ -28,25 +19,21 @@ def update_timestamp(file_path):
             print("Error: No title (#) found in the file.")
             sys.exit(1)
 
-        # 公開日時が既に存在するか確認
+        # 公開日時の行を探す
         publish_index = next((i for i, line in enumerate(content) if line.startswith("公開:")), None)
 
         if publish_index is None:
             # 初回: 公開日時をタイトル直下に挿入
-            content.insert(title_index + 1, f"\n公開: {formatted_now}\n\n")
+            content.insert(title_index + 1, f"\n公開: {now}\n\n")
         else:
-            # 既存の公開日時を取得
+            # 既存の公開日時の行を取得
             existing_publish_line = content[publish_index].strip()
 
-            # 「公開: YYYY年MM月DD日HH時MM分SS秒」のフォーマットから日付部分を抽出
-            publish_match = re.match(r"公開: (\d{4}年\d{2}月\d{2}日 \d{2}:\d{2}:\d{2})", existing_publish_line)
-            if publish_match:
-                formatted_publish_time = publish_match.group(1)  # 既存の公開日時を維持
-                updated_line = f"公開: {formatted_publish_time}（更新: {formatted_now}）\n"
-            else:
-                # フォーマットが不明な場合、現在の時刻を公開日時とする
-                updated_line = f"公開: {formatted_now}\n"
+            # 既存の公開日時の取得（更新部分を除去）
+            existing_publish_time = re.sub(r"（更新: .*?）", "", existing_publish_line).replace("公開:", "").strip()
 
+            # 公開日時 + 最新の更新日時のみを保持
+            updated_line = f"公開: {existing_publish_time}（更新: {now}）\n"
             content[publish_index] = updated_line  # 公開日時の行を更新
 
         # 修正した内容をファイルに書き戻す
