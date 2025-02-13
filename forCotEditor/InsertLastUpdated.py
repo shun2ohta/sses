@@ -6,8 +6,6 @@ import sys
 
 def update_timestamp(file_path):
     now = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-    publish_line = f"公開: {now}\n"
-    update_line = f"更新: {now}\n"
 
     try:
         # ファイルを読み込む
@@ -22,20 +20,26 @@ def update_timestamp(file_path):
             return
 
         # 公開日時が既に存在するか確認
-        publish_exists = any(line.startswith("公開:") for line in content)
+        publish_index = next((i for i, line in enumerate(content) if line.startswith("公開:")), None)
 
-        if not publish_exists:
+        if publish_index is None:
             # 初回: 公開日時をタイトル直下に挿入
+            publish_line = f"公開: {now}\n"
             content.insert(title_index + 1, f"\n{publish_line}\n")
         else:
-            # 2回目以降: 公開日時は保持し、更新日時を管理
-            content = [
-                line for line in content if not line.startswith("更新:")
-            ]  # 既存の更新日時を削除
-            publish_index = next(
-                i for i, line in enumerate(content) if line.startswith("公開:")
-            )
-            content.insert(publish_index + 1, f"{update_line}")
+            # 既存の公開日時を取得し、更新日時を管理
+            existing_publish_line = content[publish_index].strip()
+
+            # 既存の「（更新: YYYY-MM-DD HH:MM:SS）」を削除し、公開日時のみ取得
+            publish_match = re.match(r"公開: (\d{4}-\d{2}-\d{2} \d{2}:\d{2}:\d{2})", existing_publish_line)
+            if publish_match:
+                formatted_publish_time = publish_match.group(1)  # 既存の公開日時を維持
+                updated_line = f"公開: {formatted_publish_time}（更新: {now}）\n"
+                content[publish_index] = updated_line  # 公開日時の行を更新
+            else:
+                # 既存の公開日時のフォーマットが不明な場合、新しく追加
+                updated_line = f"公開: {now}\n"
+                content[publish_index] = updated_line
 
         # 修正した内容をファイルに書き戻す
         with open(file_path, "w", encoding="utf-8") as file:
