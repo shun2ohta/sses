@@ -33,6 +33,6 @@ GitHub連携をしたファイルに保存をします。通常の「ドライ�
 
 GitHub Desktop などでローカルにクローンを作成します。VSCodeでそのディレクトリを開き、Jupyter Notebook をそのまま編集しても構いません。あるいは、「Open in Colab」のボタンをクリックして Google Colab で編集してもよいです。ファイルの入出力があるような Notebook では互換性がないので、実行は Colab で行うこととし、VSCode ではそれ以外の編集や実行を行うとスマートでしょう。対象のディレクトリにTerminalでも移動すれば、`git reset` や Commit、ファイルの追加など一連の作業ができるようになります。
 
-似たようなことを考えている人はあちこちにいらっしゃるようです。
+似たようなことを考えている人はあちこちにいらっしゃるようです。→
 [5. Google colab, GitHub, VSCodeの連携](https://programmingforever.hatenablog.com/entry/2024/08/01/131311)
 
