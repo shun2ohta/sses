@@ -18,17 +18,21 @@ GitHub Desktop を使えばコマンドを覚えなくても直感的に操作�
 
 	**ポイント** － main から新しい作業ブランチをつくる（「ブランチを切る」と呼ぶことが多いです）ことで、main を直接変更せずに済みます。
 
+<!-- ここにコメントを入れる -->
 <div style="text-align: center;">
   <img src="https://www.gesw.org/img/memo/New_Branch.png" alt="New_Branch" width="50%">
 </div>
+<!-- ここにコメントを入れる -->
 
-	**図1. ブランチをつくる準備**　Current Branch,　main とある部分をクリックして、New Branch ボタンを押します。
+**図1. ブランチをつくる準備**　Current Branch,　main とある部分をクリックして、New Branch ボタンを押します。
 
+<!-- ここにコメントを入れる -->
 <div style="text-align: center;">
   <img src="https://www.gesw.org/img/memo/Create_a_branch.png" alt="Create_a_branch" width="50%">
 </div>
+<!-- ここにコメントを入れる -->
 
-	**図2. ブランチをつくる**　ブランチの性質をよく表すシンプルな名前をつけて Create Branch ボタンを押します。
+**図2. ブランチをつくる**　ブランチの性質をよく表すシンプルな名前をつけて Create Branch ボタンを押します。
 
 
 2. 変更を加えて Commit します
