@@ -22,13 +22,13 @@ GitHub Desktop を使えばコマンドを覚えなくても直感的に操作�
   <img src="https://www.gesw.org/img/memo/New_Branch.png" alt="New_Branch" width="50%">
 </div>
 
-**図1. ブランチをつくる準備**　Current Branch,　main とある部分をクリックして、New Branch ボタンを押します。
+	**図1. ブランチをつくる準備**　Current Branch,　main とある部分をクリックして、New Branch ボタンを押します。
 
 <div style="text-align: center;">
   <img src="https://www.gesw.org/img/memo/Create_a_branch.png" alt="Create_a_branch" width="50%">
 </div>
 
-**図2. ブランチをつくる**　ブランチの性質をよく表すシンプルな名前をつけて Create Branch ボタンを押します。
+	**図2. ブランチをつくる**　ブランチの性質をよく表すシンプルな名前をつけて Create Branch ボタンを押します。
 
 
 2. 変更を加えて Commit します
