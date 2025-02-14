@@ -19,6 +19,16 @@ GitHub Desktop を使えばコマンドを覚えなくても直感的に操作�
 	**ポイント** － main から新しい作業ブランチをつくる（「ブランチを切る」と呼ぶことが多いです）ことで、main を直接変更せずに済みます。
 
 
+<div style="text-align: center;">
+  <img src="https://www.gesw.org/img/memo/New_Branch.png" alt="New_Branch" width="50%">
+</div>
+
+<div style="text-align: center;">
+  <img src="https://www.gesw.org/img/memo/Create_a_branch.png" alt="Create_a_branch" width="50%">
+</div>
+
+
+
 2. 変更を加えて Commit します
 	-	コードを編集（CotEditor, VSCode などで開く）します
 	-	GitHub Desktop に戻ると、変更が自動で検出されます
