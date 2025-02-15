@@ -53,7 +53,7 @@ GitHub Desktop を使えばコマンドを覚えなくても直感的に操作�
 -	GitHub Desktop の 「Create Pull Request」ボタンをクリックします
 
 	<div style="text-align: center;">
-	<img src="https://www.gesw.org/img/memo/PreviewPullRequest.png" alt="PreviewPullRequest" width="40%">
+	<img src="https://www.gesw.org/img/memo/PreviewPullRequest.png" alt="PreviewPullRequest" width="60%">
 	</div>
 
 	**図3. プルリクエストを準備する**　Create Pull Request ボタンを押します。
