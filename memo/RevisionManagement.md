@@ -50,7 +50,27 @@ GitHub Desktop を使えばコマンドを覚えなくても直感的に操作�
 
 
 4. GitHub で Pull Request を作成します
-	-	GitHub Desktop の 「Create Pull Request」ボタンをクリック → すると GitHub の Pull Request ページが開きます
+	-	GitHub Desktop の 「Create Pull Request」ボタンをクリックします
+
+		<div style="text-align: center;">
+		<img src="https://www.gesw.org/img/memo/PreviewPullRequest.png" alt="PreviewPullRequest" width="40%">
+		</div>
+
+		**図3. プルリクエストを準備する**　Create Pull Request ボタンを押します。
+
+	-	 すると、以下のように GitHub の Pull Request ページが開きます
+
+		<div style="text-align: center;">
+		<img src="https://www.gesw.org/img/memo/OpenPullRequest1.png" alt="OpenPullRequest1" width="40%">
+		</div>
+
+		<div style="text-align: center;">
+		<img src="https://www.gesw.org/img/memo/OpenPullRequest2.png" alt="OpenPullRequest2" width="40%">
+		</div>
+
+		**図4. 差分を確認する**　変更点を見比べて問題がないか確認をします
+
+
 	-	「Title」と「Description」を記入します
 	-	「Create Pull Request」 をクリックします
 
