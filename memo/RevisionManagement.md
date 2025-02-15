@@ -61,17 +61,25 @@ GitHub Desktop を使えばコマンドを覚えなくても直感的に操作�
 	-	 すると、以下のように GitHub の Pull Request ページが開きます
 
 		<div style="text-align: center;">
-		<img src="https://www.gesw.org/img/memo/OpenPullRequest1.png" alt="OpenPullRequest1" width="40%">
+		<img src="https://www.gesw.org/img/memo/OpenPullRequest1.png" alt="OpenPullRequest1" width="60%">
 		</div>
 
 		<div style="text-align: center;">
-		<img src="https://www.gesw.org/img/memo/OpenPullRequest2.png" alt="OpenPullRequest2" width="40%">
+		<img src="https://www.gesw.org/img/memo/OpenPullRequest2.png" alt="OpenPullRequest2" width="60%">
 		</div>
 
 		**図4. 差分を確認する**　変更点を見比べて問題がないか確認をします
 
 
 	-	「Title」と「Description」を記入します
+
+		<div style="text-align: center;">
+		<img src="https://www.gesw.org/img/memo/Title_Desscription.png" alt="Title_Desscription" width="60%">
+		</div>
+
+		**図5. Pull Requestに必須の項目を記入する**　何をどう変更したかを手短に記します
+
+
 	-	「Create Pull Request」 をクリックします
 
 	**ポイント** － Pull Request をつくる（プルリクを送る、プルリクを出す、と呼ぶことが多いです）ことで、変更を安全にレビューしてから main にマージできます。
