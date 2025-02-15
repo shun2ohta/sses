@@ -90,7 +90,7 @@ GitHub Desktop を使えばコマンドを覚えなくても直感的に操作�
 		<img src="https://www.gesw.org/img/memo/Title_Desscription.png" alt="Title_Desscription" width="60%">
 		</div>
 
-		**図6. Pull Requestに必須の項目を記入する**　何をどう変更したかを手短に記します
+		**図6. Pull Request に必須の項目を記入する**　何をどう変更したかを手短に記します
 
 
 	-	「Create Pull Request」 をクリックします
@@ -106,7 +106,7 @@ GitHub Desktop を使えばコマンドを覚えなくても直感的に操作�
 		<img src="https://www.gesw.org/img/memo/MergePullRequest.png" alt="MergePullRequest" width="60%">
 		</div>
 
-		**図7. GitHub側でマージの確認を行う**　コンフリクトのチェックを自動で行って、問題がなければマージの準備が完了します
+		**図7. GitHub 側でマージの確認を行う**　コンフリクトのチェックを自動で行って、問題がなければマージの準備が完了します
 
 
 	-	すると、マージを行なってもよいかの最終確認を求められます
@@ -120,10 +120,10 @@ GitHub Desktop を使えばコマンドを覚えなくても直感的に操作�
 	-	マージが完了し、Pull requestの処理も終わったので、Closeされます。
 
 		<div style="text-align: center;">
-		<img src="https://www.gesw.org/img/memo/ConfirmMerge.png" alt="ConfirmMerge" width="60%">
+		<img src="https://www.gesw.org/img/memo/PullRequestMerged_Closed.png" alt="PullRequestMerged_Closed" width="60%">
 		</div>
 
-		**図9. マージが完了する**　Closeされて、リモートリポジトリは更新されます
+		**図9. リモートリポジトリの main へのマージが完了する**　Closeされて、リモートリポジトリは更新されます
 
 
 	-	「Delete branch」 を押して、使い終わったブランチを削除します
@@ -136,7 +136,21 @@ GitHub Desktop を使えばコマンドを覚えなくても直感的に操作�
 	-	左上のブランチメニューで main を選択します
 	-	「Fetch Origin」→「Pull」ボタン を押して最新の main を取得します
 
+		<div style="text-align: center;">
+		<img src="https://www.gesw.org/img/memo/PullOrigin.png" alt="PullOrigin" width="60%">
+		</div>
+
+		**図10. リモートリポジトリの main から Pull する**　これでローカルの main も完全に同期がとれました
+	
+		<div style="text-align: center;">
+		<img src="https://www.gesw.org/img/memo/CheckHistory_main.png" alt="CheckHistory_main" width="60%">
+		</div>
+
+		**図11. リモートリポジトリの main から Pull する**　これでローカルの main も完全に同期がとれました
+
 	**ポイント** － main が最新になっていることを確認し、新しい作業に進めます。
+
+	CheckHistory_main
 
 
 #### ■ なぜブランチを切って更新し、その後 main にマージするのか？
