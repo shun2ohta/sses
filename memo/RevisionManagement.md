@@ -10,147 +10,147 @@ GitHub Desktop を使えばコマンドを覚えなくても直感的に操作�
 
 ### 1. GitHub Desktop を使った履歴管理の概略と手順
 
-1. ブランチを作成します
-	-	GitHub Desktop を開きます
-	-	左上のブランチメニューをクリック
-	-	「New Branch…」を選択 → ブランチ名を入力
-	-	「Create Branch」を押します
+#### 1. ブランチを作成します
+-	GitHub Desktop を開きます
+-	左上のブランチメニューをクリック
+-	「New Branch…」を選択 → ブランチ名を入力
+-	「Create Branch」を押します
 
-	**ポイント** － main から新しい作業ブランチをつくる（「ブランチを切る」と呼ぶことが多いです）ことで、main を直接変更せずに済みます。
+**ポイント** － main から新しい作業ブランチをつくる（「ブランチを切る」と呼ぶことが多いです）ことで、main を直接変更せずに済みます。
 
+
+<div style="text-align: center;">
+<img src="https://www.gesw.org/img/memo/New_Branch.png" alt="New_Branch" width="40%">
+</div>
+
+**図1. ブランチをつくる準備**　Current Branch,　main とある部分をクリックして、New Branch ボタンを押します。
+
+
+<div style="text-align: center;">
+<img src="https://www.gesw.org/img/memo/Create_a_Branch.png" alt="Create_a_Branch" width="40%">
+</div>
+
+**図2. ブランチをつくる**　ブランチの性質をよく表すシンプルな名前をつけて Create Branch ボタンを押します。
+
+
+#### 2. 変更を加えて Commit します
+-	コードを編集（CotEditor, VSCode などで開く）します
+-	GitHub Desktop に戻ると、変更が自動で検出されます
+-	変更を確認し、「Summary」にコミットメッセージを入力します
+-	「Commit to ブランチ名」をクリックします
+
+**ポイント** － Commit は「ローカル保存」なので、まだ GitHub には反映されていない状態です。
+
+
+#### 3. GitHub に Push します
+-	上部の「Push Origin」ボタンをクリックします
+-	GitHub にブランチがアップロードされます
+
+**ポイント** － Push すると、GitHub に変更が送信されますが、まだ main には反映されていません。
+
+
+#### 4. GitHub で Pull Request を作成します
+-	GitHub Desktop の 「Create Pull Request」ボタンをクリックします
 
 	<div style="text-align: center;">
-	<img src="https://www.gesw.org/img/memo/New_Branch.png" alt="New_Branch" width="40%">
+	<img src="https://www.gesw.org/img/memo/PreviewPullRequest.png" alt="PreviewPullRequest" width="40%">
 	</div>
 
-	**図1. ブランチをつくる準備**　Current Branch,　main とある部分をクリックして、New Branch ボタンを押します。
+	**図3. プルリクエストを準備する**　Create Pull Request ボタンを押します。
 
+-	 すると、以下のように GitHub の Pull Request ページが開きます
 
 	<div style="text-align: center;">
-	<img src="https://www.gesw.org/img/memo/Create_a_Branch.png" alt="Create_a_Branch" width="40%">
+	<img src="https://www.gesw.org/img/memo/OpenPullRequest1.png" alt="OpenPullRequest1" width="60%">
 	</div>
 
-	**図2. ブランチをつくる**　ブランチの性質をよく表すシンプルな名前をつけて Create Branch ボタンを押します。
+	<div style="text-align: center;">
+	<img src="https://www.gesw.org/img/memo/OpenPullRequest2.png" alt="OpenPullRequest2" width="60%">
+	</div>
 
+	**図4. 差分を確認する**　変更点を見比べて問題がないか確認をします
 
-2. 変更を加えて Commit します
-	-	コードを編集（CotEditor, VSCode などで開く）します
-	-	GitHub Desktop に戻ると、変更が自動で検出されます
-	-	変更を確認し、「Summary」にコミットメッセージを入力します
-	-	「Commit to ブランチ名」をクリックします
+-	（次のような場合には、プルダウンメニューから「Create Pull Request」を選びます）
 
-	**ポイント** － Commit は「ローカル保存」なので、まだ GitHub には反映されていない状態です。
+	<div style="text-align: center;">
+	<img src="https://www.gesw.org/img/memo/PullDownMenu.png" alt="PullDownMenu" width="60%">
+	</div>
 
+	<div style="text-align: center;">
+	<img src="https://www.gesw.org/img/memo/CreatePullRequest.png" alt="CreatePullRequest" width="60%">
+	</div>
 
-3. GitHub に Push します
-	-	上部の「Push Origin」ボタンをクリックします
-	-	GitHub にブランチがアップロードされます
-
-	**ポイント** － Push すると、GitHub に変更が送信されますが、まだ main には反映されていません。
-
-
-4. GitHub で Pull Request を作成します
-	-	GitHub Desktop の 「Create Pull Request」ボタンをクリックします
-
-		<div style="text-align: center;">
-		<img src="https://www.gesw.org/img/memo/PreviewPullRequest.png" alt="PreviewPullRequest" width="40%">
-		</div>
-
-		**図3. プルリクエストを準備する**　Create Pull Request ボタンを押します。
-
-	-	 すると、以下のように GitHub の Pull Request ページが開きます
-
-		<div style="text-align: center;">
-		<img src="https://www.gesw.org/img/memo/OpenPullRequest1.png" alt="OpenPullRequest1" width="60%">
-		</div>
-
-		<div style="text-align: center;">
-		<img src="https://www.gesw.org/img/memo/OpenPullRequest2.png" alt="OpenPullRequest2" width="60%">
-		</div>
-
-		**図4. 差分を確認する**　変更点を見比べて問題がないか確認をします
-
-	-	（次のような場合には、プルダウンメニューから「Create Pull Request」を選びます）
-
-		<div style="text-align: center;">
-		<img src="https://www.gesw.org/img/memo/PullDownMenu.png" alt="PullDownMenu" width="60%">
-		</div>
-
-		<div style="text-align: center;">
-		<img src="https://www.gesw.org/img/memo/CreatePullRequest.png" alt="CreatePullRequest" width="60%">
-		</div>
-
-		**図5. プルダウンメニューを切り替える**　プレビュー（確認）が終わったら、「Create Pull Request」を行います
+	**図5. プルダウンメニューを切り替える**　プレビュー（確認）が終わったら、「Create Pull Request」を行います
 
 
 
-	-	「Title」と「Description」を記入します
+-	「Title」と「Description」を記入します
 
-		<div style="text-align: center;">
-		<img src="https://www.gesw.org/img/memo/Title_Desscription.png" alt="Title_Desscription" width="70%">
-		</div>
+	<div style="text-align: center;">
+	<img src="https://www.gesw.org/img/memo/Title_Desscription.png" alt="Title_Desscription" width="70%">
+	</div>
 
-		**図6. Pull Request に必須の項目を記入する**　何をどう変更したかを手短に記します
-
-
-	-	「Create Pull Request」 をクリックします
-
-	**ポイント** － Pull Request をつくる（プルリクを送る、プルリクを出す、と呼ぶことが多いです）ことで、変更を安全にレビューしてから main にマージできます。
+	**図6. Pull Request に必須の項目を記入する**　何をどう変更したかを手短に記します
 
 
-5. Pull Request をレビューして main にマージ（Merge）します
-	-	GitHub上で、変更を確認します
-	-	問題がなければ、「Merge pull request」をクリックします
+-	「Create Pull Request」 をクリックします
 
-		<div style="text-align: center;">
-		<img src="https://www.gesw.org/img/memo/MergePullRequest.png" alt="MergePullRequest" width="70%">
-		</div>
-
-		**図7. GitHub 側でマージの確認を行う**　コンフリクトのチェックを自動で行って、問題がなければマージの準備が完了します
+**ポイント** － Pull Request をつくる（プルリクを送る、プルリクを出す、と呼ぶことが多いです）ことで、変更を安全にレビューしてから main にマージできます。
 
 
-	-	すると、マージを行なってもよいかの最終確認を求められます
+#### 5. Pull Request をレビューして main にマージ（Merge）します
+-	GitHub上で、変更を確認します
+-	問題がなければ、「Merge pull request」をクリックします
 
-		<div style="text-align: center;">
-		<img src="https://www.gesw.org/img/memo/ConfirmMerge.png" alt="ConfirmMerge" width="60%">
-		</div>
+	<div style="text-align: center;">
+	<img src="https://www.gesw.org/img/memo/MergePullRequest.png" alt="MergePullRequest" width="70%">
+	</div>
 
-		**図8. マージする内容を最終確認する**　Pull Requestの一連の処理が終了し、Closeされたことを確認します
-
-	-	マージが完了し、Pull requestの処理も終わったので、Closeされます。
-
-		<div style="text-align: center;">
-		<img src="https://www.gesw.org/img/memo/PullRequestMerged_Closed.png" alt="PullRequestMerged_Closed" width="70%">
-		</div>
-
-		**図9. リモートリポジトリの main へのマージが完了する**　Closeされて、リモートリポジトリは更新されます
+	**図7. GitHub 側でマージの確認を行う**　コンフリクトのチェックを自動で行って、問題がなければマージの準備が完了します
 
 
-	-	「Delete branch」 を押して、使い終わったブランチを削除します
+-	すると、マージを行なってもよいかの最終確認を求められます
 
-	**ポイント** － 用が済んだら、ブランチは捨てるほうがよいです。すでに main に取り込まれたブランチは不要なので、削除する方が管理しやすく、もし必要ならば、最新の main から新しいブランチを作成する方が安全で確実だからです（旧いブランチに最新のメインの状態を反映させることもできますが、ここでは省略します）。もちろん、当面の間、コミットする予定があるのであれば、ブランチを都度捨てる必要はありません。
+	<div style="text-align: center;">
+	<img src="https://www.gesw.org/img/memo/ConfirmMerge.png" alt="ConfirmMerge" width="60%">
+	</div>
+
+	**図8. マージする内容を最終確認する**　Pull Requestの一連の処理が終了し、Closeされたことを確認します
+
+-	マージが完了し、Pull requestの処理も終わったので、Closeされます。
+
+	<div style="text-align: center;">
+	<img src="https://www.gesw.org/img/memo/PullRequestMerged_Closed.png" alt="PullRequestMerged_Closed" width="70%">
+	</div>
+
+	**図9. リモートリポジトリの main へのマージが完了する**　Closeされて、リモートリポジトリは更新されます
 
 
-6. ローカルの main を最新に更新します
-	-	GitHub Desktop に戻ります
-	-	左上のブランチメニューで main を選択します
-	-	「Fetch Origin」→「Pull」ボタン を押して最新の main を取得します
+-	「Delete branch」 を押して、使い終わったブランチを削除します
 
-		<div style="text-align: center;">
-		<img src="https://www.gesw.org/img/memo/PullOrigin.png" alt="PullOrigin" width="70%">
-		</div>
+**ポイント** － 用が済んだら、ブランチは捨てるほうがよいです。すでに main に取り込まれたブランチは不要なので、削除する方が管理しやすく、もし必要ならば、最新の main から新しいブランチを作成する方が安全で確実だからです（旧いブランチに最新のメインの状態を反映させることもできますが、ここでは省略します）。もちろん、当面の間、コミットする予定があるのであれば、ブランチを都度捨てる必要はありません。
 
-		**図10. リモートリポジトリの main から Pull する**　これでローカルの main も完全に同期がとれました
-	
-		<div style="text-align: center;">
-		<img src="https://www.gesw.org/img/memo/CheckHistory_main.png" alt="CheckHistory_main" width="70%">
-		</div>
 
-		**図11. リモートリポジトリの main から Pull する**　これでローカルの main も完全に同期がとれました
+#### 6. ローカルの main を最新に更新します
+-	GitHub Desktop に戻ります
+-	左上のブランチメニューで main を選択します
+-	「Fetch Origin」→「Pull」ボタン を押して最新の main を取得します
 
-	**ポイント** － main が最新になっていることを確認し、新しい作業に進めます。
+	<div style="text-align: center;">
+	<img src="https://www.gesw.org/img/memo/PullOrigin.png" alt="PullOrigin" width="70%">
+	</div>
 
-	CheckHistory_main
+	**図10. リモートリポジトリの main から Pull する**　これでローカルの main も完全に同期がとれました
+
+	<div style="text-align: center;">
+	<img src="https://www.gesw.org/img/memo/CheckHistory_main.png" alt="CheckHistory_main" width="70%">
+	</div>
+
+	**図11. リモートリポジトリの main から Pull する**　これでローカルの main も完全に同期がとれました
+
+**ポイント** － main が最新になっていることを確認し、新しい作業に進めます。
+
+
 
 
 #### ■ なぜブランチを切って更新し、その後 main にマージするのか？
