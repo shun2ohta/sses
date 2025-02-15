@@ -115,9 +115,18 @@ GitHub Desktop を使えばコマンドを覚えなくても直感的に操作�
 		<img src="https://www.gesw.org/img/memo/ConfirmMerge.png" alt="ConfirmMerge" width="60%">
 		</div>
 
-		**図8. マージする内容を最終確認する**　何をどう変更したかを手短に記します
+		**図8. マージする内容を最終確認する**　確認後、
 
-		-	「Delete branch」 を押して、使い終わったブランチを削除します
+	-	マージが完了し、Pull requestの処理も終わったので、Closeされます。
+
+		<div style="text-align: center;">
+		<img src="https://www.gesw.org/img/memo/ConfirmMerge.png" alt="ConfirmMerge" width="60%">
+		</div>
+
+		**図9. マージする内容を最終確認する**　確認後、
+
+
+	-	「Delete branch」 を押して、使い終わったブランチを削除します
 
 	**ポイント** － 用が済んだら、ブランチは捨てるほうがよいです。すでに main に取り込まれたブランチは不要なので、削除する方が管理しやすく、もし必要ならば、最新の main から新しいブランチを作成する方が安全で確実だからです（旧いブランチに最新のメインの状態を反映させることもできますが、ここでは省略します）。もちろん、当面の間、コミットする予定があるのであれば、ブランチを都度捨てる必要はありません。
 
