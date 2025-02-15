@@ -27,7 +27,7 @@ GitHub Desktop を使えばコマンドを覚えなくても直感的に操作�
 
 
 	<div style="text-align: center;">
-	<img src="https://www.gesw.org/img/memo/Create_a_Branch.png" alt="Create_a_Branch" width="40%">
+	<img src="https://www.gesw.org/img/memo/Create_a_branch.png" alt="Create_a_Branch" width="40%">
 	</div>
 
 	**図2. ブランチをつくる**　ブランチの性質をよく表すシンプルな名前をつけて Create Branch ボタンを押します。
