@@ -70,7 +70,7 @@ GitHub Desktop を使えばコマンドを覚えなくても直感的に操作�
 
 	**図4. 差分を確認する**　変更点を見比べて問題がないか確認をします
 
--	（次のような場合には、プルダウンメニューから「Create Pull Request」を選びます）
+-	（次のような場合には）プルダウンメニューから「Create Pull Request」を選びます
 
 	<div style="text-align: center;">
 	<img src="https://www.gesw.org/img/memo/PullDownMenu.png" alt="PullDownMenu" width="60%">
