@@ -115,7 +115,7 @@ GitHub Desktop を使えばコマンドを覚えなくても直感的に操作�
 		<img src="https://www.gesw.org/img/memo/ConfirmMerge.png" alt="ConfirmMerge" width="60%">
 		</div>
 
-		**図8. マージする内容を最終確認する**　確認後、
+		**図8. マージする内容を最終確認する**　Pull Requestの一連の処理が終了し、Closeされたことを確認します
 
 	-	マージが完了し、Pull requestの処理も終わったので、Closeされます。
 
@@ -123,7 +123,7 @@ GitHub Desktop を使えばコマンドを覚えなくても直感的に操作�
 		<img src="https://www.gesw.org/img/memo/ConfirmMerge.png" alt="ConfirmMerge" width="60%">
 		</div>
 
-		**図9. マージする内容を最終確認する**　確認後、
+		**図9. マージが完了する**　Closeされて、リモートリポジトリは更新されます
 
 
 	-	「Delete branch」 を押して、使い終わったブランチを削除します
