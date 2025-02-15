@@ -58,7 +58,7 @@ GitHub Desktop を使えばコマンドを覚えなくても直感的に操作�
 
 	**図3. プルリクエストを準備する**　Create Pull Request ボタンを押します。
 
--	 すると、以下のように GitHub の Pull Request ページが開きます
+-	すると、以下のように GitHub の Pull Request ページが開きます
 
 	<div style="text-align: center;">
 	<img src="https://www.gesw.org/img/memo/OpenPullRequest1.png" alt="OpenPullRequest1" width="60%">
