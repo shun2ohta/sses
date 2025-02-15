@@ -87,7 +87,7 @@ GitHub Desktop を使えばコマンドを覚えなくても直感的に操作�
 	-	「Title」と「Description」を記入します
 
 		<div style="text-align: center;">
-		<img src="https://www.gesw.org/img/memo/Title_Desscription.png" alt="Title_Desscription" width="60%">
+		<img src="https://www.gesw.org/img/memo/Title_Desscription.png" alt="Title_Desscription" width="70%">
 		</div>
 
 		**図6. Pull Request に必須の項目を記入する**　何をどう変更したかを手短に記します
@@ -103,7 +103,7 @@ GitHub Desktop を使えばコマンドを覚えなくても直感的に操作�
 	-	問題がなければ、「Merge pull request」をクリックします
 
 		<div style="text-align: center;">
-		<img src="https://www.gesw.org/img/memo/MergePullRequest.png" alt="MergePullRequest" width="60%">
+		<img src="https://www.gesw.org/img/memo/MergePullRequest.png" alt="MergePullRequest" width="70%">
 		</div>
 
 		**図7. GitHub 側でマージの確認を行う**　コンフリクトのチェックを自動で行って、問題がなければマージの準備が完了します
@@ -120,7 +120,7 @@ GitHub Desktop を使えばコマンドを覚えなくても直感的に操作�
 	-	マージが完了し、Pull requestの処理も終わったので、Closeされます。
 
 		<div style="text-align: center;">
-		<img src="https://www.gesw.org/img/memo/PullRequestMerged_Closed.png" alt="PullRequestMerged_Closed" width="60%">
+		<img src="https://www.gesw.org/img/memo/PullRequestMerged_Closed.png" alt="PullRequestMerged_Closed" width="70%">
 		</div>
 
 		**図9. リモートリポジトリの main へのマージが完了する**　Closeされて、リモートリポジトリは更新されます
@@ -137,13 +137,13 @@ GitHub Desktop を使えばコマンドを覚えなくても直感的に操作�
 	-	「Fetch Origin」→「Pull」ボタン を押して最新の main を取得します
 
 		<div style="text-align: center;">
-		<img src="https://www.gesw.org/img/memo/PullOrigin.png" alt="PullOrigin" width="60%">
+		<img src="https://www.gesw.org/img/memo/PullOrigin.png" alt="PullOrigin" width="70%">
 		</div>
 
 		**図10. リモートリポジトリの main から Pull する**　これでローカルの main も完全に同期がとれました
 	
 		<div style="text-align: center;">
-		<img src="https://www.gesw.org/img/memo/CheckHistory_main.png" alt="CheckHistory_main" width="60%">
+		<img src="https://www.gesw.org/img/memo/CheckHistory_main.png" alt="CheckHistory_main" width="70%">
 		</div>
 
 		**図11. リモートリポジトリの main から Pull する**　これでローカルの main も完全に同期がとれました
