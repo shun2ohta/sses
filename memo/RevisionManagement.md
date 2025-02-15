@@ -70,6 +70,19 @@ GitHub Desktop を使えばコマンドを覚えなくても直感的に操作�
 
 		**図4. 差分を確認する**　変更点を見比べて問題がないか確認をします
 
+	-	（次のような場合には、プルダウンメニューから「Create Pull Request」を選びます）
+
+		<div style="text-align: center;">
+		<img src="https://www.gesw.org/img/memo/PullDownMenu.png" alt="PullDownMenu" width="60%">
+		</div>
+
+		<div style="text-align: center;">
+		<img src="https://www.gesw.org/img/memo/CreatePullRequest.png" alt="CreatePullRequest" width="60%">
+		</div>
+
+		**図5. プルダウンメニューを切り替える**　プレビュー（確認）が終わったら、「Create Pull Request」を行います
+
+
 
 	-	「Title」と「Description」を記入します
 
@@ -77,7 +90,7 @@ GitHub Desktop を使えばコマンドを覚えなくても直感的に操作�
 		<img src="https://www.gesw.org/img/memo/Title_Desscription.png" alt="Title_Desscription" width="60%">
 		</div>
 
-		**図5. Pull Requestに必須の項目を記入する**　何をどう変更したかを手短に記します
+		**図6. Pull Requestに必須の項目を記入する**　何をどう変更したかを手短に記します
 
 
 	-	「Create Pull Request」 をクリックします
@@ -88,7 +101,23 @@ GitHub Desktop を使えばコマンドを覚えなくても直感的に操作�
 5. Pull Request をレビューして main にマージ（Merge）します
 	-	GitHub上で、変更を確認します
 	-	問題がなければ、「Merge pull request」をクリックします
-	-	「Delete branch」 を押して、使い終わったブランチを削除します
+
+		<div style="text-align: center;">
+		<img src="https://www.gesw.org/img/memo/MergePullRequest.png" alt="MergePullRequest" width="60%">
+		</div>
+
+		**図7. GitHub側でマージの確認を行う**　コンフリクトのチェックを自動で行って、問題がなければマージの準備が完了します
+
+
+	-	すると、マージを行なってもよいかの最終確認を求められます
+
+		<div style="text-align: center;">
+		<img src="https://www.gesw.org/img/memo/ConfirmMerge.png" alt="ConfirmMerge" width="60%">
+		</div>
+
+		**図8. マージする内容を最終確認する**　何をどう変更したかを手短に記します
+
+		-	「Delete branch」 を押して、使い終わったブランチを削除します
 
 	**ポイント** － 用が済んだら、ブランチは捨てるほうがよいです。すでに main に取り込まれたブランチは不要なので、削除する方が管理しやすく、もし必要ならば、最新の main から新しいブランチを作成する方が安全で確実だからです（旧いブランチに最新のメインの状態を反映させることもできますが、ここでは省略します）。もちろん、当面の間、コミットする予定があるのであれば、ブランチを都度捨てる必要はありません。
 
