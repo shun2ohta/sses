@@ -101,7 +101,7 @@ GitHub Desktop を使えばコマンドを覚えなくても直感的に操作�
 -	「Delete branch」 を押して、使い終わったブランチを削除します
 
 	<div style="text-align: center;">
-	<img src="https://www.gesw.org/img/memo/MergePullRequest.png" alt="MergePullRequest" width="70%">
+	<img src="https://www.gesw.org/img/memo/MergePullRequest.png" alt="MergePullRequest" width="60%">
 	</div>
 
 	**図7. GitHub 側でマージの確認を行う**　コンフリクトのチェックを自動で行って、問題がなければマージの準備が完了します
