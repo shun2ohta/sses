@@ -92,25 +92,44 @@ GitHub Desktop というアプリケーションがあり、これでもリポ�
 **図6. Commit の内容を Push する**　Commit に問題がなければ、Push origin を押して、main に反映させます。Commit の内容を修正したい場合には Undo ボタンを押します。
 
 <div style="text-align: center;">
-<img src="https://www.gesw.org/img/memo/ConfirmRemoteRepo1.png" alt="ConfirmRemoteRepo1" width="50%">
+<img src="https://www.gesw.org/img/memo/ConfirmRemoteRepo1.png" alt="ConfirmRemoteRepo1" width="70%">
 </div>
 
 **図7. main に Push されたかを確認する1**　GitHub 上を確認（ブラウザをReload）すると、Mac の Finder 上の操作結果が反映されていることがわかります。
 
 <div style="text-align: center;">
-<img src="https://www.gesw.org/img/memo/ConfirmRemoteRepo2.png" alt="ConfirmRemoteRepo2" width="50%">
+<img src="https://www.gesw.org/img/memo/ConfirmRemoteRepo2.png" alt="ConfirmRemoteRepo2" width="70%">
 </div>
 
 **図8. main に Push されたかを確認する2**　GitHub Desktop の Histroy タブ　で確認できる履歴をクリックすると、右側にどのような変更が加わったかを知ることができます。慣れると、ブラウザを使わず、GitHub Desktop のみで確認できるようになります。
 
 
 ### 5. Pull してローカルを最新状態に保つ
--	右上の [Fetch origin] をクリック（最新の変更があるか確認）します
--	There are updates available と表示されたら [Pull origin] をクリックします
+-   自身あるいは共同メンバーがファイルを更新したり、追加、削除を行うと、自動でリストとともに、 [Pull origin] ボタンが表示されているはずです
+-	最新の変更があるかわからない場合には、右上の [Fetch origin] をクリックします
+-	変更がなければそのまま、変更があれば [Pull origin] が表示されているので、これをクリックします
 -	"Pull completed successfully"と表示されます（同期できました！）
+-   同期したファイルを確認します
 
 ✔ ポイント
 -   Pull は最新（自分の別のローカルマシーンでの作業、共同メンバーの作業）の状態に更新するボタンと考えてよい
 -   Pull せずに作業すると、古い状態で編集してしまうリスクがある
 -   Push の前に Pull する習慣をつける（Pull → Edit → Commit → Push）
 
+<div style="text-align: center;">
+<img src="https://www.gesw.org/img/memo/Pull_origin.png" alt="Pull_origin" width="70%">
+</div>
+
+**図9. main に 変更があると自動的に Pull するように促される**　リモートリポジトリに変更があるので、まずはローカルにも同期をとり、その後、履歴を確認します（次の図10）。
+
+<div style="text-align: center;">
+<img src="https://www.gesw.org/img/memo/Fetch_origin.png" alt="Fetch_origin" width="30%">
+</div>
+
+**図10. 手動でリモートリポジトリに変更があるか確認する**　リモートリポジトリに変更があるかどうかわからない場合、Fecth することで、Pull する必要があるかないかがわかります。
+
+<div style="text-align: center;">
+<img src="https://www.gesw.org/img/memo/ConfirmRemoteRepo3.png" alt="ConfirmRemoteRepo3" width="60%">
+</div>
+
+**図11. リモートリポジトリの変更をローカルにも反映させる**　ローカルに Pull することで、リモートリポジトリにどのような変更があったかを知ることができます。この例では、README.md に（図8と比較すると）さらに1行追加されていたということがわかります。
