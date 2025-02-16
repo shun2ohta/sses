@@ -62,6 +62,18 @@ GitHub Desktop というアプリケーションがあり、これでもリポ�
 -	Commit は変更内容をローカルに保存すること
 -	Commit してもまだ GitHub にはアップロードされていない
 
+<div style="text-align: center;">
+<img src="https://www.gesw.org/img/memo/List_of_Changes.png" alt="List_of_Changes" width="50%">
+</div>
+
+**図4. ローカルディレクトリの変更は即座に検知される**　作業をローカルディレクトリで行うと、どんな変更を行なったかを自動的にリスト表示してくれます。
+
+<div style="text-align: center;">
+<img src="https://www.gesw.org/img/memo/Summary_Commit2main.png" alt="Summary_Commit2main" width="50%">
+</div>
+
+**図5. main に Commit する**　Summary にはごく簡単に何を変更したかがわかるように記します（日本語でも構いません）。すると、Commit to main のボタンを押すことができるようになります。
+
 
 ### 4. Push して GitHub に反映させる
 -	右上の [Push origin] をクリックします
@@ -71,6 +83,8 @@ GitHub Desktop というアプリケーションがあり、これでもリポ�
 ✔ ポイント
 -	Push はローカルの変更を GitHub にアップロードすること
 -	他のメンバーもこの変更をみることができるので、以降共同での作業が可能となる
+
+Push_Undo
 
 
 ### 5. Pull してローカルを最新状態に保つ
