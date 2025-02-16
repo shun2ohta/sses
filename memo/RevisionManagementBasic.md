@@ -26,6 +26,11 @@ GitHub Desktop というアプリケーションがあり、これでもリポ�
 -	クローンとは GitHub 上のリポジトリ（リモートリポジトリと呼びます）を 自分のマシン（ローカル）にコピーすること
 -	ローカルで作業した内容がリモートリポジトリに反映されるようになる
 
+<div style="text-align: center;">
+<img src="https://www.gesw.org/img/memo/Clone_a_Repository.png" alt="Clone_a_Repository" width="50%">
+</div>
+
+**図1. リポジトリのクローンをつくる**　自分で作成したリポジトリや招待されたリポジトリのみクローンをつくることができます。
 
 ### 2. クローンしたローカルディレクトリに変更を加える
 -   何かファイルをクローンしたローカルディレクトリに置いてみます
@@ -34,6 +39,18 @@ GitHub Desktop というアプリケーションがあり、これでもリポ�
 ✔ ポイント
 -	編集作業そのものを必ずローカルディレクトリのなかで行う
 -	4番以降を実行するまでは変更過程を他の誰もみることはできないので安心してよい
+
+<div style="text-align: center;">
+<img src="https://www.gesw.org/img/memo/Finder_OpenFile.png" alt="Finder_OpenFile" width="50%">
+</div>
+
+**図2. ローカルディレクトリでで編集作業を行う**　Finderでファイルを新たに置いたり（この例では、svgファイル）、編集したりすることができます。README.md を開くと次の図3のようになります。
+
+<div style="text-align: center;">
+<img src="https://www.gesw.org/img/memo/EditingFile.png" alt="EditingFile" width="50%">
+</div>
+
+**図3. VSCodeのエディタで編集作業を行う**　エディタは好みのものでよく、これに限りません。この例では、README.md に1行追記しています。
 
 
 ### 3. Commit する
