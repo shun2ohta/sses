@@ -12,12 +12,8 @@ GitHub Desktop を使えばコマンドを覚えなくても直感的に操作�
 
 #### 1. ブランチを作成します
 -	GitHub Desktop を開きます
--	左上のブランチメニューをクリック
--	「New Branch…」を選択 → ブランチ名を入力
--	「Create Branch」を押します
-
-**ポイント** － main から新しい作業ブランチをつくる（「ブランチを切る」と呼ぶことが多いです）ことで、main を直接変更せずに済みます。
-
+-	左上のブランチメニューをクリック → 「New Branch…」を選択します（**図1**）
+-	ブランチ名を入力して、「Create Branch」を押します（**図2**）
 
 <div style="text-align: center;">
 <img src="https://www.gesw.org/img/memo/New_Branch.png" alt="New_Branch" width="40%">
@@ -31,6 +27,9 @@ GitHub Desktop を使えばコマンドを覚えなくても直感的に操作�
 </div>
 
 **図2. ブランチをつくる**　ブランチの性質をよく表すシンプルな名前をつけて Create Branch ボタンを押します。
+
+
+**ポイント** － main から新しい作業ブランチをつくる（「ブランチを切る」と呼ぶことが多いです）ことで、main を直接変更せずに済みます。
 
 
 #### 2. 変更を加えて Commit します
@@ -50,10 +49,10 @@ GitHub Desktop を使えばコマンドを覚えなくても直感的に操作�
 
 
 #### 4. GitHub で Pull Request を作成します
--	GitHub Desktop の 「Create Pull Request」ボタンをクリックします（図3）
--	すると、以下のように GitHub の Pull Request ページが開きます（図4）
--	（次のような場合には）プルダウンメニューから「Create Pull Request」を選びます（図5）
--	「Title」と「Description」を記入します（図6）
+-	GitHub Desktop の 「Create Pull Request」ボタンをクリックします（**図3**）
+-	すると、以下のように GitHub の Pull Request ページが開きます（**図4, 図5**）
+-	（次のような場合には）プルダウンメニューから「Create Pull Request」を選びます（**図6**）
+-	「Title」と「Description」を記入します（**図7**）
 -	「Create Pull Request」 をクリックします
 
 	<div style="text-align: center;">
@@ -66,27 +65,29 @@ GitHub Desktop を使えばコマンドを覚えなくても直感的に操作�
 	<img src="https://www.gesw.org/img/memo/OpenPullRequest1.png" alt="OpenPullRequest1" width="60%">
 	</div>
 
+	**図4. 差分を確認する1**　グラフィックスの変更の例（2-up）です。変更の具合に応じて、比較法を選べます。変更点を見比べて問題がないか確認をします。
+
 	<div style="text-align: center;">
 	<img src="https://www.gesw.org/img/memo/OpenPullRequest2.png" alt="OpenPullRequest2" width="60%">
 	</div>
 
-	**図4. 差分を確認する**　変更点を見比べて問題がないか確認をします
+	**図5. 差分を確認する2**　コードの変更例です。変更点を見比べて問題がないか確認をします。
 
 	<div style="text-align: center;">
 	<img src="https://www.gesw.org/img/memo/PullDownMenu.png" alt="PullDownMenu" width="60%">
 	</div>
 
 	<div style="text-align: center;">
-	<img src="https://www.gesw.org/img/memo/CreatePullRequest.png" alt="CreatePullRequest" width="60%">
+	<img src="https://www.gesw.org/img/memo/CreatePullRequest.png" alt="CreatePullRequest" width="58.8%">
 	</div>
 
-	**図5. プルダウンメニューを切り替える**　プレビュー（確認）が終わったら、「Create Pull Request」を行います
+	**図6. プルダウンメニューを切り替える**　プレビュー（確認）が終わったら、「Create Pull Request」を行います
 
 	<div style="text-align: center;">
 	<img src="https://www.gesw.org/img/memo/Title_Desscription.png" alt="Title_Desscription" width="70%">
 	</div>
 
-	**図6. Pull Request に必須の項目を記入する**　何をどう変更したかを手短に記します
+	**図7. Pull Request に必須の項目を記入する**　何をどう変更したかを手短に記します
 
 **ポイント** － Pull Request をつくる（プルリクを送る、プルリクを出す、と呼ぶことが多いです）ことで、変更を安全にレビューしてから main にマージできます。
 
@@ -95,28 +96,28 @@ GitHub Desktop を使えばコマンドを覚えなくても直感的に操作�
 
 #### 5. Pull Request をレビューして main にマージ（Merge）します
 -	GitHub上で、変更を確認します
--	問題がなければ、「Merge pull request」をクリックします（図7）
--	すると、マージを行なってもよいかの最終確認を求められます（図8）
--	マージが完了し、Pull requestの処理も終わったので、Closeされます（図9）
+-	問題がなければ、「Merge pull request」をクリックします（**図8**）
+-	すると、マージを行なってもよいかの最終確認を求められます（**図9**）
+-	マージが完了し、Pull requestの処理も終わったので、Closeされます（**図10**）
 -	「Delete branch」 を押して、使い終わったブランチを削除します
 
 	<div style="text-align: center;">
 	<img src="https://www.gesw.org/img/memo/MergePullRequest.png" alt="MergePullRequest" width="60%">
 	</div>
 
-	**図7. GitHub 側でマージの確認を行う**　コンフリクトのチェックを自動で行って、問題がなければマージの準備が完了します
+	**図8. GitHub 側でマージの確認を行う**　コンフリクトのチェックを自動で行って、問題がなければマージの準備が完了します
 
 	<div style="text-align: center;">
 	<img src="https://www.gesw.org/img/memo/ConfirmMerge.png" alt="ConfirmMerge" width="60%">
 	</div>
 
-	**図8. マージする内容を最終確認する**　Pull Requestの一連の処理が終了し、Closeされたことを確認します
+	**図9. マージする内容を最終確認する**　Pull Requestの一連の処理が終了し、Closeされたことを確認します
 
 	<div style="text-align: center;">
 	<img src="https://www.gesw.org/img/memo/PullRequestMerged_Closed.png" alt="PullRequestMerged_Closed" width="60%">
 	</div>
 
-	**図9. リモートリポジトリの main へのマージが完了する**　Closeされて、リモートリポジトリは更新されます
+	**図10. リモートリポジトリの main へのマージが完了する**　Closeされて、リモートリポジトリは更新されます
 
 
 **ポイント** － 用が済んだら、ブランチは捨てるほうがよいです。すでに main に取り込まれたブランチは不要なので、削除する方が管理しやすく、もし必要ならば、最新の main から新しいブランチを作成する方が安全で確実だからです（旧いブランチに最新のメインの状態を反映させることもできますが、ここでは省略します）。もちろん、当面の間、コミットする予定があるのであれば、ブランチを都度捨てる必要はありません。
@@ -131,13 +132,13 @@ GitHub Desktop を使えばコマンドを覚えなくても直感的に操作�
 	<img src="https://www.gesw.org/img/memo/PullOrigin.png" alt="PullOrigin" width="45%">
 	</div>
 
-	**図10. リモートリポジトリの main から Pull する**　これでローカルの main も完全に同期がとれました
+	**図11. リモートリポジトリの main から Pull する**　これでローカルの main も完全に同期がとれました
 
 	<div style="text-align: center;">
 	<img src="https://www.gesw.org/img/memo/CheckHistory_main.png" alt="CheckHistory_main" width="70%">
 	</div>
 
-	**図11. リモートリポジトリの main から Pull する**　これでローカルの main も完全に同期がとれました
+	**図12. リモートリポジトリの main から Pull する**　これでローカルの main も完全に同期がとれました
 
 **ポイント** － main が最新になっていることを確認し、新しい作業に進めます。
 
