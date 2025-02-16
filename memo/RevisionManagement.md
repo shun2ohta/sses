@@ -1,4 +1,4 @@
-## GitHub Desktop の基本的な使いかた
+## GitHub Desktop を使った履歴管理の概略と手順
 
 公開: 2025-02-12 10:31:44
 
@@ -8,9 +8,7 @@ GitHub Desktop というアプリケーションがあり、これでもリポ�
 GitHub Desktop を使えばコマンドを覚えなくても直感的に操作でき、**基本的なブランチ管理から Pull Request 作成まで**といった一連の過程も実現できます。慣れてくると、GUIはいちいち面倒で、煩わしく感じてくるものですが、まずは GitHub Desktop を使うことをお勧めします。以下の手順の概略を実践しながら理解するとよいです。
 
 
-### 1. GitHub Desktop を使った履歴管理の概略と手順
-
-#### 1. ブランチを作成します
+### 1. ブランチを作成します
 -	GitHub Desktop を開きます
 -	左上のブランチメニューをクリック → 「New Branch…」を選択します（**図1**）
 -	ブランチ名を入力して、「Create Branch」を押します（**図2**）
@@ -32,7 +30,7 @@ GitHub Desktop を使えばコマンドを覚えなくても直感的に操作�
 **ポイント** － main から新しい作業ブランチをつくる（「ブランチを切る」と呼ぶことが多いです）ことで、main を直接変更せずに済みます。
 
 
-#### 2. 変更を加えて Commit します
+### 2. 変更を加えて Commit します
 -	コードを編集（CotEditor, VSCode などで開く）します
 -	GitHub Desktop に戻ると、変更が自動で検出されます
 -	変更を確認し、「Summary」にコミットメッセージを入力します
@@ -41,14 +39,14 @@ GitHub Desktop を使えばコマンドを覚えなくても直感的に操作�
 **ポイント** － Commit は「ローカル保存」なので、まだ GitHub には反映されていない状態です。
 
 
-#### 3. GitHub に Push します
+### 3. GitHub に Push します
 -	上部の「Push Origin」ボタンをクリックします
 -	GitHub にブランチがアップロードされます
 
 **ポイント** － Push すると、GitHub に変更が送信されますが、まだ main には反映されていません。
 
 
-#### 4. GitHub で Pull Request を作成します
+### 4. GitHub で Pull Request を作成します
 -	GitHub Desktop の 「Create Pull Request」ボタンをクリックします（**図3**）
 -	すると、以下のように GitHub の Pull Request ページが開きます（**図4, 図5**）
 -	（次のような場合には）プルダウンメニューから「Create Pull Request」を選びます（**図6**）
@@ -78,7 +76,7 @@ GitHub Desktop を使えばコマンドを覚えなくても直感的に操作�
 	</div>
 
 	<div style="text-align: center;">
-	<img src="https://www.gesw.org/img/memo/CreatePullRequest.png" alt="CreatePullRequest" width="58.8%">
+	<img src="https://www.gesw.org/img/memo/CreatePullRequest.png" alt="CreatePullRequest" width="60%">
 	</div>
 
 	**図6. プルダウンメニューを切り替える**　プレビュー（確認）が終わったら、「Create Pull Request」を行います
@@ -92,9 +90,7 @@ GitHub Desktop を使えばコマンドを覚えなくても直感的に操作�
 **ポイント** － Pull Request をつくる（プルリクを送る、プルリクを出す、と呼ぶことが多いです）ことで、変更を安全にレビューしてから main にマージできます。
 
 
-
-
-#### 5. Pull Request をレビューして main にマージ（Merge）します
+### 5. Pull Request をレビューして main にマージ（Merge）します
 -	GitHub上で、変更を確認します
 -	問題がなければ、「Merge pull request」をクリックします（**図8**）
 -	すると、マージを行なってもよいかの最終確認を求められます（**図9**）
@@ -123,10 +119,10 @@ GitHub Desktop を使えばコマンドを覚えなくても直感的に操作�
 **ポイント** － 用が済んだら、ブランチは捨てるほうがよいです。すでに main に取り込まれたブランチは不要なので、削除する方が管理しやすく、もし必要ならば、最新の main から新しいブランチを作成する方が安全で確実だからです（旧いブランチに最新のメインの状態を反映させることもできますが、ここでは省略します）。もちろん、当面の間、コミットする予定があるのであれば、ブランチを都度捨てる必要はありません。
 
 
-#### 6. ローカルの main を最新に更新します
+### 6. ローカルの main を最新に更新します
 -	GitHub Desktop に戻ります
--	左上のブランチメニューで main を選択します
--	「Fetch Origin」→「Pull」ボタン を押して最新の main を取得します
+-	左上のブランチメニューで main を選択 → 「Fetch Origin」→「Pull」ボタン を押して最新の main を取得します（**図11**）
+-	「History」からマージされているかを確認してもよいでしょう（**図12**）
 
 	<div style="text-align: center;">
 	<img src="https://www.gesw.org/img/memo/PullOrigin.png" alt="PullOrigin" width="45%">
@@ -138,14 +134,14 @@ GitHub Desktop を使えばコマンドを覚えなくても直感的に操作�
 	<img src="https://www.gesw.org/img/memo/CheckHistory_main.png" alt="CheckHistory_main" width="70%">
 	</div>
 
-	**図12. リモートリポジトリの main から Pull する**　これでローカルの main も完全に同期がとれました
+	**図12. ローカルリポジトリにマージが反映されているか確認する**　これでローカルの main も完全に同期がとれました
 
 **ポイント** － main が最新になっていることを確認し、新しい作業に進めます。
 
 
 
 
-#### ■ なぜブランチを切って更新し、その後 main にマージするのか？
+### ■ なぜブランチを切って更新し、その後 main にマージするのか？
 
 直接 main に Push しない理由は大きく分けて3つほどあります。それぞれのポイントから説明していきましょう。
 
@@ -167,39 +163,3 @@ GitHub Desktop を使えばコマンドを覚えなくても直感的に操作�
 **ポイント2** － コード以外でも、リポートなどの添削をする場合がそうですが、ファイルを共同で編集することは多々あります。ゼミなどでその場で対応する場合には、いきなり main に Push するほうが（声をかけ合えばよいので）楽ですが、修正をする場合には、ブランチを切ってから Pull Request するのがよいでしょう。
 
 
-### 2. Commit を整理する
-
-GitHub Desktopでは、残念ながら、高度な履歴編集（コミットの統合 Squash や Push 後の並べ替え）はできません。ただし、以下のような基本的なコミットの整理は可能です。
-
-
-#### Push した変更を完全に取り消して前のバージョンに戻す（Revert）
-
-1.	GitHub Desktop の「History」タブを開きます
-2.	取り消したいコミットを探します
-3.	そのコミットを右クリック（二本指タップ）し、「Revert Changes in Commit」を選択します
-4.	「Push origin」をクリックします
-
-**ポイント1** － この方法では、取り消しの履歴が残るため、チームでの作業でも安全に使え、元に戻した変更を確認してから、もう一度コミットし直すことができます。
-
-**ポイント2** － Push したものを完全になかったことにする（Force Reset をする）方法もあり、「Push origin」ボタンをクリックして、もしエラーが出たら「Force Push（強制Push）」を選択します。履歴ごと消して完全になかったことになります。ただし、Force Push はなるべく避け、履歴は残す Revert Changes in Commit を使うほうがよいでしょう。
-
-
-#### Commit した変更（Push 前）を修正する（Amend）
-
-「コミットメッセージを間違えた」、「ファイルを追加し忘れた」など、直前の Commit を修正（Amend）したいことがあります。
-
-1.	変更を加えたファイルをステージング（追加）します
-2.	コミットメッセージを修正（「Summary（コミットメッセージ）」を書き直す）します
-3.	「Amend commit」ボタンを押します（直前のコミットが修正される）
-4.	「Push origin」をクリック（Push 前であれば、そのまま反映され、Push 後の場合、強制 Push（force push）が必要）します
-
-
-#### Commit した変更（Push 前）を取り消す（Undo）
-
-「コミットしたけれど、もう一度やり直したい」、「間違ったファイルをコミットしてしまった」など、直前のコミットを取り消し（Undo）たいことがあります。
-
-1.	GitHub Desktopの「History」タブを開きます
-2.	直前のコミットを選択します
-3.	「Undo」ボタンを押します
-4.	変更が「Changes」タブに戻ります
-5.	修正後、再コミットすればよい（Push 前であればローカルだけの変更なので、そのまま反映され、Push 済みの場合は「Revert」を使うほうがよい）です
