@@ -113,7 +113,7 @@ GitHub Desktop を使えばコマンドを覚えなくても直感的に操作�
 	**図8. マージする内容を最終確認する**　Pull Requestの一連の処理が終了し、Closeされたことを確認します
 
 	<div style="text-align: center;">
-	<img src="https://www.gesw.org/img/memo/PullRequestMerged_Closed.png" alt="PullRequestMerged_Closed" width="70%">
+	<img src="https://www.gesw.org/img/memo/PullRequestMerged_Closed.png" alt="PullRequestMerged_Closed" width="60%">
 	</div>
 
 	**図9. リモートリポジトリの main へのマージが完了する**　Closeされて、リモートリポジトリは更新されます
@@ -128,7 +128,7 @@ GitHub Desktop を使えばコマンドを覚えなくても直感的に操作�
 -	「Fetch Origin」→「Pull」ボタン を押して最新の main を取得します
 
 	<div style="text-align: center;">
-	<img src="https://www.gesw.org/img/memo/PullOrigin.png" alt="PullOrigin" width="70%">
+	<img src="https://www.gesw.org/img/memo/PullOrigin.png" alt="PullOrigin" width="45%">
 	</div>
 
 	**図10. リモートリポジトリの main から Pull する**　これでローカルの main も完全に同期がとれました
