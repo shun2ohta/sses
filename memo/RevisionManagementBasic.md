@@ -27,7 +27,7 @@ GitHub Desktop というアプリケーションがあり、これでもリポ�
 -	ローカルで作業した内容がリモートリポジトリに反映されるようになる
 
 <div style="text-align: center;">
-<img src="https://www.gesw.org/img/memo/Clone_a_Repository.png" alt="Clone_a_Repository" width="50%">
+<img src="https://www.gesw.org/img/memo/Clone_a_Repository.png" alt="Clone_a_Repository" width="45%">
 </div>
 
 **図1. リポジトリのクローンをつくる**　自分で作成したリポジトリや招待されたリポジトリのみクローンをつくることができます。
@@ -69,7 +69,7 @@ GitHub Desktop というアプリケーションがあり、これでもリポ�
 **図4. ローカルディレクトリの変更は即座に検知される**　作業をローカルディレクトリで行うと、どんな変更を行なったかを自動的にリスト表示してくれます。
 
 <div style="text-align: center;">
-<img src="https://www.gesw.org/img/memo/Summary_Commit2main.png" alt="Summary_Commit2main" width="50%">
+<img src="https://www.gesw.org/img/memo/Summary_Commit2main.png" alt="Summary_Commit2main" width="30%">
 </div>
 
 **図5. main に Commit する**　Summary にはごく簡単に何を変更したかがわかるように記します（日本語でも構いません）。すると、Commit to main のボタンを押すことができるようになります。
@@ -78,13 +78,30 @@ GitHub Desktop というアプリケーションがあり、これでもリポ�
 ### 4. Push して GitHub に反映させる
 -	右上の [Push origin] をクリックします
 -	"Push completed successfully" と表示されます（Pushできました！）
--	GitHub の Web ページでリポジトリを開き、変更が反映されたことを確認します
+-	GitHub の Web ページでリポジトリを開き、変更が反映されたことを確認します（図7）
+-   GitHub Desktop の場合、History タブをみると、同様に変更が反映されていることがわかります（図8）
 
 ✔ ポイント
 -	Push はローカルの変更を GitHub にアップロードすること
 -	他のメンバーもこの変更をみることができるので、以降共同での作業が可能となる
 
-Push_Undo
+<div style="text-align: center;">
+<img src="https://www.gesw.org/img/memo/Push_Undo.png" alt="Push_Undo" width="80%">
+</div>
+
+**図6. Commit の内容を Push する**　Commit に問題がなければ、Push origin を押して、main に反映させます。Commit の内容を修正したい場合には Undo ボタンを押します。
+
+<div style="text-align: center;">
+<img src="https://www.gesw.org/img/memo/ConfirmRemoteRepo1.png" alt="ConfirmRemoteRepo1" width="50%">
+</div>
+
+**図7. main に Push されたかを確認する1**　GitHub 上を確認（ブラウザをReload）すると、Mac の Finder 上の操作結果が反映されていることがわかります。
+
+<div style="text-align: center;">
+<img src="https://www.gesw.org/img/memo/ConfirmRemoteRepo2.png" alt="ConfirmRemoteRepo2" width="50%">
+</div>
+
+**図8. main に Push されたかを確認する2**　GitHub Desktop の Histroy タブ　で確認できる履歴をクリックすると、右側にどのような変更が加わったかを知ることができます。慣れると、ブラウザを使わず、GitHub Desktop のみで確認できるようになります。
 
 
 ### 5. Pull してローカルを最新状態に保つ
@@ -96,3 +113,4 @@ Push_Undo
 -   Pull は最新（自分の別のローカルマシーンでの作業、共同メンバーの作業）の状態に更新するボタンと考えてよい
 -   Pull せずに作業すると、古い状態で編集してしまうリスクがある
 -   Push の前に Pull する習慣をつける（Pull → Edit → Commit → Push）
+
