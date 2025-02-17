@@ -26,11 +26,12 @@ GitHub Desktop というアプリケーションがあり、これでもリポ�
 -	クローンとは GitHub 上のリポジトリ（リモートリポジトリと呼びます）を 自分のマシン（ローカル）にコピーすること
 -	ローカルで作業した内容がリモートリポジトリに反映されるようになる
 
-<div style="text-align: center;">
+<br><div style="text-align: center;">
 <img src="https://www.gesw.org/img/memo/Clone_a_Repository.png" alt="Clone_a_Repository" width="45%">
 </div>
 
 **図1. リポジトリのクローンをつくる**　自分で作成したリポジトリや招待されたリポジトリのみクローンをつくることができます。
+<br><br>
 
 ### 2. クローンしたローカルディレクトリに変更を加える
 -   何かファイルをクローンしたローカルディレクトリに置いてみます
@@ -40,17 +41,18 @@ GitHub Desktop というアプリケーションがあり、これでもリポ�
 -	編集作業そのものを必ずローカルディレクトリのなかで行う
 -	4番以降を実行するまでは変更過程を他の誰もみることはできないので安心してよい
 
-<div style="text-align: center;">
+<br><div style="text-align: center;">
 <img src="https://www.gesw.org/img/memo/Finder_OpenFile.png" alt="Finder_OpenFile" width="50%">
 </div>
 
 **図2. ローカルディレクトリでで編集作業を行う**　Finderでファイルを新たに置いたり（この例では、svgファイル）、編集したりすることができます。README.md を開くと次の図3のようになります。
 
-<div style="text-align: center;">
+<br><div style="text-align: center;">
 <img src="https://www.gesw.org/img/memo/EditingFile.png" alt="EditingFile" width="50%">
 </div>
 
 **図3. VSCodeのエディタで編集作業を行う**　エディタは好みのものでよく、これに限りません。この例では、README.md に1行追記しています。
+<br><br>
 
 
 ### 3. Commit する
@@ -62,18 +64,18 @@ GitHub Desktop というアプリケーションがあり、これでもリポ�
 -	Commit は変更内容をローカルに保存すること
 -	Commit してもまだ GitHub にはアップロードされていない
 
-<div style="text-align: center;">
+<br><div style="text-align: center;">
 <img src="https://www.gesw.org/img/memo/List_of_Changes.png" alt="List_of_Changes" width="50%">
 </div>
 
 **図4. ローカルディレクトリの変更は即座に検知される**　作業をローカルディレクトリで行うと、どんな変更を行なったかを自動的にリスト表示してくれます。
 
-<div style="text-align: center;">
+<br><div style="text-align: center;">
 <img src="https://www.gesw.org/img/memo/Summary_Commit2main.png" alt="Summary_Commit2main" width="30%">
 </div>
 
 **図5. main に Commit する**　Summary にはごく簡単に何を変更したかがわかるように記します（日本語でも構いません）。すると、Commit to main のボタンを押すことができるようになります。
-
+<br><br>
 
 ### 4. Push して GitHub に反映させる
 -	右上の [Push origin] をクリックします
@@ -85,24 +87,24 @@ GitHub Desktop というアプリケーションがあり、これでもリポ�
 -	Push はローカルの変更を GitHub にアップロードすること
 -	他のメンバーもこの変更をみることができるので、以降共同での作業が可能となる
 
-<div style="text-align: center;">
+<br><div style="text-align: center;">
 <img src="https://www.gesw.org/img/memo/Push_Undo.png" alt="Push_Undo" width="80%">
 </div>
 
 **図6. Commit の内容を Push する**　Commit に問題がなければ、Push origin を押して、main に反映させます。Commit の内容を修正したい場合には Undo ボタンを押します。
 
-<div style="text-align: center;">
+<br><div style="text-align: center;">
 <img src="https://www.gesw.org/img/memo/ConfirmRemoteRepo1.png" alt="ConfirmRemoteRepo1" width="70%">
 </div>
 
 **図7. main に Push されたかを確認する1**　GitHub 上を確認（ブラウザをReload）すると、Mac の Finder 上の操作結果が反映されていることがわかります。
 
-<div style="text-align: center;">
+<br><div style="text-align: center;">
 <img src="https://www.gesw.org/img/memo/ConfirmRemoteRepo2.png" alt="ConfirmRemoteRepo2" width="70%">
 </div>
 
 **図8. main に Push されたかを確認する2**　GitHub Desktop の Histroy タブ　で確認できる履歴をクリックすると、右側にどのような変更が加わったかを知ることができます。慣れると、ブラウザを使わず、GitHub Desktop のみで確認できるようになります。
-
+<br><br>
 
 ### 5. Pull してローカルを最新状態に保つ
 -   自身あるいは共同メンバーがファイルを更新したり、追加、削除を行うと、自動でリストとともに、 [Pull origin] ボタンが表示されているはずです
@@ -116,19 +118,19 @@ GitHub Desktop というアプリケーションがあり、これでもリポ�
 -   Pull せずに作業すると、古い状態で編集してしまうリスクがある
 -   Push の前に Pull する習慣をつける（Pull → Edit → Commit → Push）
 
-<div style="text-align: center;">
+<br><div style="text-align: center;">
 <img src="https://www.gesw.org/img/memo/Pull_origin.png" alt="Pull_origin" width="70%">
 </div>
 
 **図9. main に 変更があると自動的に Pull するように促される**　リモートリポジトリに変更があるので、まずはローカルにも同期をとり、その後、履歴を確認します（次の図10）。
 
-<div style="text-align: center;">
+<br><div style="text-align: center;">
 <img src="https://www.gesw.org/img/memo/Fetch_origin.png" alt="Fetch_origin" width="30%">
 </div>
 
 **図10. 手動でリモートリポジトリに変更があるか確認する**　リモートリポジトリに変更があるかどうかわからない場合、Fecth することで、Pull する必要があるかないかがわかります。
 
-<div style="text-align: center;">
+<br><div style="text-align: center;">
 <img src="https://www.gesw.org/img/memo/ConfirmRemoteRepo3.png" alt="ConfirmRemoteRepo3" width="60%">
 </div>
 
