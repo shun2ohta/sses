@@ -26,7 +26,8 @@ GitHub Desktop というアプリケーションがあり、これでもリポ�
 -	クローンとは GitHub 上のリポジトリ（リモートリポジトリと呼びます）を 自分のマシン（ローカル）にコピーすること
 -	ローカルで作業した内容がリモートリポジトリに反映されるようになる
 
-<br><div style="text-align: center;">
+<br>
+<div style="text-align: center;">
 <img src="https://www.gesw.org/img/memo/Clone_a_Repository.png" alt="Clone_a_Repository" width="45%">
 </div>
 
