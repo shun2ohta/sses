@@ -15,6 +15,7 @@ GitHub Desktop を使えばコマンドを覚えなくても直感的に操作�
 -	左上のブランチメニューをクリック → 「New Branch…」を選択します（**図1**）
 -	ブランチ名を入力して、「Create Branch」を押します（**図2**）
 
+<br>
 <div style="text-align: center;">
 <img src="https://www.gesw.org/img/memo/New_Branch.png" alt="New_Branch" width="40%">
 </div>
@@ -27,9 +28,11 @@ GitHub Desktop を使えばコマンドを覚えなくても直感的に操作�
 </div>
 
 **図2. ブランチをつくる**　ブランチの性質をよく表すシンプルな名前をつけて Create Branch ボタンを押します。
+<br>
 
 
 **ポイント** － main から新しい作業ブランチをつくる（「ブランチを切る」と呼ぶことが多いです）ことで、main を直接変更せずに済みます。上記では、GitHub Desktop を使って作成していますが、もちろん GitHub の Web 版でも可能で、コマンドラインも含めて、複数の方法があります。
+<br><br>
 
 
 ### 2. 変更を加えて Commit します
@@ -39,6 +42,7 @@ GitHub Desktop を使えばコマンドを覚えなくても直感的に操作�
 -	「Commit to ブランチ名」をクリックします
 
 **ポイント** － Commit は「ローカル保存」なので、まだ GitHub には反映されていない状態です。
+<br><br>
 
 
 ### 3. GitHub に Push します
@@ -46,6 +50,7 @@ GitHub Desktop を使えばコマンドを覚えなくても直感的に操作�
 -	GitHub にブランチがアップロードされます
 
 **ポイント** － Push すると、GitHub に変更が送信されますが、まだ main には反映されていません。
+<br><br>
 
 
 ### 4. GitHub で Pull Request を作成します
@@ -55,41 +60,48 @@ GitHub Desktop を使えばコマンドを覚えなくても直感的に操作�
 -	「Title」と「Description」を記入します（**図7**）
 -	「Create Pull Request」 をクリックします
 
+	<br>
 	<div style="text-align: center;">
 	<img src="https://www.gesw.org/img/memo/PreviewPullRequest.png" alt="PreviewPullRequest" width="60%">
 	</div>
 
 	**図3. プルリクエストを準備する**　Create Pull Request ボタンを押します。
 
+	<br>
 	<div style="text-align: center;">
 	<img src="https://www.gesw.org/img/memo/OpenPullRequest1.png" alt="OpenPullRequest1" width="60%">
 	</div>
 
 	**図4. 差分を確認する1**　グラフィックスの変更の例（2-up）です。変更の具合に応じて、比較方法を選べます。変更点を見比べて問題がないか確認をします。
 
+	<br>
 	<div style="text-align: center;">
 	<img src="https://www.gesw.org/img/memo/OpenPullRequest2.png" alt="OpenPullRequest2" width="60%">
 	</div>
 
 	**図5. 差分を確認する2**　コードの変更例です。変更点を見比べて問題がないか確認をします。
 
+	<br>
 	<div style="text-align: center;">
 	<img src="https://www.gesw.org/img/memo/PullDownMenu.png" alt="PullDownMenu" width="60%">
 	</div>
-
+	<br>
 	<div style="text-align: center;">
 	<img src="https://www.gesw.org/img/memo/CreatePullRequest.png" alt="CreatePullRequest" width="60%">
 	</div>
 
 	**図6. プルダウンメニューを切り替える**　プレビュー（確認）が終わったら、「Create Pull Request」を行います。
 
+	<br>
 	<div style="text-align: center;">
 	<img src="https://www.gesw.org/img/memo/Title_Desscription.png" alt="Title_Desscription" width="70%">
 	</div>
 
 	**図7. Pull Request に必須の項目を記入する**　何をどう変更したかを手短に記します。
+	<br><br>
 
 **ポイント** － Pull Request をつくる（プルリクを送る、プルリクを出す、と呼ぶことが多いです）ことで、変更を安全にレビューしてから main にマージできます。
+<br><br>
 
 
 ### 5. Pull Request をレビューして main にマージ（Merge）します
@@ -99,26 +111,31 @@ GitHub Desktop を使えばコマンドを覚えなくても直感的に操作�
 -	マージが完了し、Pull requestの処理も終わったので、Closeされます（**図10**）
 -	「Delete branch」 を押して、使い終わったブランチを削除します
 
+	<br>
 	<div style="text-align: center;">
 	<img src="https://www.gesw.org/img/memo/MergePullRequest.png" alt="MergePullRequest" width="60%">
 	</div>
 
 	**図8. GitHub 側でマージの確認を行う**　コンフリクトのチェックを自動で行い、問題がなければマージの準備が完了します。
 
+	<br>
 	<div style="text-align: center;">
 	<img src="https://www.gesw.org/img/memo/ConfirmMerge.png" alt="ConfirmMerge" width="60%">
 	</div>
 
 	**図9. マージする内容を最終確認する**　Pull Requestの一連の処理が終了し、Close されたことを確認します。
 
+	<br>
 	<div style="text-align: center;">
 	<img src="https://www.gesw.org/img/memo/PullRequestMerged_Closed.png" alt="PullRequestMerged_Closed" width="60%">
 	</div>
 
 	**図10. リモートリポジトリの main へのマージが完了する**　Closeされて、リモートリポジトリは更新されます。
+	<br>
 
 
 **ポイント** － 用が済んだら、ブランチは捨てるほうがよいです。すでに main に取り込まれたブランチは不要なので、削除する方が管理しやすく、もし必要ならば、最新の main から新しいブランチを作成する方が安全で確実だからです（旧いブランチに最新のメインの状態を反映させることもできますが、ここでは省略します）。もちろん、当面の間、コミットする予定があるのであれば、ブランチを都度捨てる必要はありません。
+<br><br>
 
 
 ### 6. ローカルの main を最新に更新します
@@ -126,19 +143,23 @@ GitHub Desktop を使えばコマンドを覚えなくても直感的に操作�
 -	左上のブランチメニューで main を選択 → 「Fetch Origin」→「Pull」ボタン を押して最新の main を取得します（**図11**）
 -	「History」からマージされているかを確認してもよいでしょう（**図12**）
 
+	<br>
 	<div style="text-align: center;">
 	<img src="https://www.gesw.org/img/memo/PullOrigin.png" alt="PullOrigin" width="45%">
 	</div>
 
 	**図11. リモートリポジトリの main から Pull する**　これでローカルの main も完全に同期がとれました。
 
+	<br>
 	<div style="text-align: center;">
 	<img src="https://www.gesw.org/img/memo/CheckHistory_main.png" alt="CheckHistory_main" width="70%">
 	</div>
 
 	**図12. ローカルリポジトリにマージが反映されているか確認する**　ローカルの main にもマージが反映されていることがわかります。
+	<br>
 
 **ポイント** － main が最新になっていることを確認し、新しい作業に進めます。
+<br><br>
 
 
 
