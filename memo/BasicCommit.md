@@ -1,4 +1,4 @@
-## GitHub Desktop を使って Commit を整理する
+## GitHub Desktop を使って Commit を整理する［Amend, Undo, Revert］
 
 公開: 2025-02-16 11:00:38
 
