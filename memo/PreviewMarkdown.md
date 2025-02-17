@@ -7,7 +7,7 @@
 マークダウン記法の書類は好みのエディタで作成すればよいですが、都合のよいプレビュー機能のあるツールはそれほど多くありません。VSCodeでも編集するシチュエーションは多く、VSCode内で簡単なプレビューができるとよいでしょう。何もインストールしなくても、VSCodeでマークダウン記法の書類を開いている状態で、エディタのスプリットビューのアイコン（下図の左側）をクリックすると、左右に分割され、左がコード（編集画面）、右にプレビュー画面が表示されます。
 
 <div style="text-align: center;">
-  <img src="https://www.gesw.org/img/memo/Preview_Icon.png" alt="Preview markdown icon" width="50%">
+  <img src="https://www.gesw.org/img/memo/Preview_Icon.png" alt="Preview markdown icon" width="40%">
 </div>
 
 
