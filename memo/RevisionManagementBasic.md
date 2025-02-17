@@ -74,7 +74,7 @@ GitHub Desktop というアプリケーションがあり、これでもリポ�
     <img src="https://www.gesw.org/img/memo/Summary_Commit2main.png" alt="Summary_Commit2main" width="30%">
     </div>
 
-    **図5. main に Commit する**　Summary にはごく簡単に何を変更したかがわかるように記します（日本語でも構いません）。すると、Commit to main のボタンを押すことができるようになります。
+    **図5. main に Commit する**　Summary にはごく簡単に何を変更したかがわかるように記します（日本語でも構いません）。すると、[Commit to main] のボタンを押すことができるようになります。
     <br><br>
 
 **✔ ポイント**
@@ -85,7 +85,6 @@ GitHub Desktop というアプリケーションがあり、これでもリポ�
 
 ### 4. Push して GitHub に反映させる
 -	右上の [Push origin] をクリックします（**図6**）
--	"Push completed successfully" と表示されます（Pushできました！）
 -	GitHub の Web ページでリポジトリを開き、変更が反映されたことを確認します（**図7**）
 -   GitHub Desktop の場合、History タブをみると、同様に変更が反映されていることがわかります（**図8**）
 
@@ -108,7 +107,7 @@ GitHub Desktop というアプリケーションがあり、これでもリポ�
     <img src="https://www.gesw.org/img/memo/ConfirmRemoteRepo2.png" alt="ConfirmRemoteRepo2" width="70%">
     </div>
 
-    **図8. main に Push されたかを確認する2**　GitHub Desktop の Histroy タブ　で確認できる履歴をクリックすると、右側にどのような変更が加わったかを知ることができます。慣れると、ブラウザを使わず、GitHub Desktop のみで確認できるようになります。
+    **図8. main に Push されたかを確認する2**　GitHub Desktop の Histroy タブ をクリックすると、右側にどのような変更が加わったかを知ることができます。慣れると、ブラウザを使わず、GitHub Desktop のみで確認できるようになります。
     <br><br>
 
 **✔ ポイント**
@@ -121,7 +120,6 @@ GitHub Desktop というアプリケーションがあり、これでもリポ�
 -   自身あるいは共同メンバーがファイルを更新したり、追加、削除を行うと、自動でリストとともに、 [Pull origin] ボタンが表示されているはずです（**図9**）
 -	最新の変更があるかわからない場合には、右上の [Fetch origin] をクリックします（**図10**）
 -	変更がなければそのまま、変更があれば [Pull origin] が表示されているので、これをクリックします（**図9**）
--	"Pull completed successfully"と表示されます（同期できました！）
 -   同期したファイルを確認します（**図11**）
 
     <br>
@@ -129,14 +127,14 @@ GitHub Desktop というアプリケーションがあり、これでもリポ�
     <img src="https://www.gesw.org/img/memo/Pull_origin.png" alt="Pull_origin" width="70%">
     </div>
 
-    **図9. main に 変更があると自動的に Pull するように促される**　リモートリポジトリに変更があるので、まずはローカルにも同期をとり、その後、履歴を確認します（次の図10）。
+    **図9. main に 変更があると自動的に Pull するように促される**　リモートリポジトリに変更があるので、まずはローカルにも同期をとり、その後、履歴を確認します（図11）。
 
     <br>
     <div style="text-align: center;">
     <img src="https://www.gesw.org/img/memo/Fetch_origin.png" alt="Fetch_origin" width="30%">
     </div>
 
-    **図10. 手動でリモートリポジトリに変更があるか確認する**　リモートリポジトリに変更があるかどうかわからない場合、Fecth することで、Pull する必要があるかないかがわかります。
+    **図10. 手動でリモートリポジトリに変更があるか確認する**　リモートリポジトリに変更があるかどうかわからない場合、Fecth することで、Pull する必要があるかないかがわかります。変更がある場合には、Pull のボタンが現れ、ない場合には何の変化もありません。
 
     <br>
     <div style="text-align: center;">
@@ -148,5 +146,5 @@ GitHub Desktop というアプリケーションがあり、これでもリポ�
 
 **✔ ポイント**
 -   Pull は最新（自分の別のローカルマシーンでの作業、共同メンバーの作業）の状態に更新するボタンと考えてよい
--   Pull せずに作業すると、古い状態で編集してしまうリスクがある
+-   Pull せずに作業すると、古い状態を元に編集してしまう（かえって混乱する）
 -   Push の前に Pull する習慣をつける（Pull → Edit → Commit → Push）
