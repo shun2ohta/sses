@@ -42,13 +42,15 @@ GitHub Desktop というアプリケーションがあり、これでもリポ�
 -	編集作業そのものを必ずローカルディレクトリのなかで行う
 -	4番以降を実行するまでは変更過程を他の誰もみることはできないので安心してよい
 
-<br><div style="text-align: center;">
+<br>
+<div style="text-align: center;">
 <img src="https://www.gesw.org/img/memo/Finder_OpenFile.png" alt="Finder_OpenFile" width="50%">
 </div>
 
 **図2. ローカルディレクトリでで編集作業を行う**　Finderでファイルを新たに置いたり（この例では、svgファイル）、編集したりすることができます。README.md を開くと次の図3のようになります。
 
-<br><div style="text-align: center;">
+<br>
+<div style="text-align: center;">
 <img src="https://www.gesw.org/img/memo/EditingFile.png" alt="EditingFile" width="50%">
 </div>
 
@@ -65,13 +67,15 @@ GitHub Desktop というアプリケーションがあり、これでもリポ�
 -	Commit は変更内容をローカルに保存すること
 -	Commit してもまだ GitHub にはアップロードされていない
 
-<br><div style="text-align: center;">
+<br>
+<div style="text-align: center;">
 <img src="https://www.gesw.org/img/memo/List_of_Changes.png" alt="List_of_Changes" width="50%">
 </div>
 
 **図4. ローカルディレクトリの変更は即座に検知される**　作業をローカルディレクトリで行うと、どんな変更を行なったかを自動的にリスト表示してくれます。
 
-<br><div style="text-align: center;">
+<br>
+<div style="text-align: center;">
 <img src="https://www.gesw.org/img/memo/Summary_Commit2main.png" alt="Summary_Commit2main" width="30%">
 </div>
 
@@ -88,19 +92,22 @@ GitHub Desktop というアプリケーションがあり、これでもリポ�
 -	Push はローカルの変更を GitHub にアップロードすること
 -	他のメンバーもこの変更をみることができるので、以降共同での作業が可能となる
 
-<br><div style="text-align: center;">
+<br>
+<div style="text-align: center;">
 <img src="https://www.gesw.org/img/memo/Push_Undo.png" alt="Push_Undo" width="80%">
 </div>
 
 **図6. Commit の内容を Push する**　Commit に問題がなければ、Push origin を押して、main に反映させます。Commit の内容を修正したい場合には Undo ボタンを押します。
 
-<br><div style="text-align: center;">
+<br>
+<div style="text-align: center;">
 <img src="https://www.gesw.org/img/memo/ConfirmRemoteRepo1.png" alt="ConfirmRemoteRepo1" width="70%">
 </div>
 
 **図7. main に Push されたかを確認する1**　GitHub 上を確認（ブラウザをReload）すると、Mac の Finder 上の操作結果が反映されていることがわかります。
 
-<br><div style="text-align: center;">
+<br>
+<div style="text-align: center;">
 <img src="https://www.gesw.org/img/memo/ConfirmRemoteRepo2.png" alt="ConfirmRemoteRepo2" width="70%">
 </div>
 
@@ -119,19 +126,22 @@ GitHub Desktop というアプリケーションがあり、これでもリポ�
 -   Pull せずに作業すると、古い状態で編集してしまうリスクがある
 -   Push の前に Pull する習慣をつける（Pull → Edit → Commit → Push）
 
-<br><div style="text-align: center;">
+<br>
+<div style="text-align: center;">
 <img src="https://www.gesw.org/img/memo/Pull_origin.png" alt="Pull_origin" width="70%">
 </div>
 
 **図9. main に 変更があると自動的に Pull するように促される**　リモートリポジトリに変更があるので、まずはローカルにも同期をとり、その後、履歴を確認します（次の図10）。
 
-<br><div style="text-align: center;">
+<br>
+<div style="text-align: center;">
 <img src="https://www.gesw.org/img/memo/Fetch_origin.png" alt="Fetch_origin" width="30%">
 </div>
 
 **図10. 手動でリモートリポジトリに変更があるか確認する**　リモートリポジトリに変更があるかどうかわからない場合、Fecth することで、Pull する必要があるかないかがわかります。
 
-<br><div style="text-align: center;">
+<br>
+<div style="text-align: center;">
 <img src="https://www.gesw.org/img/memo/ConfirmRemoteRepo3.png" alt="ConfirmRemoteRepo3" width="60%">
 </div>
 
