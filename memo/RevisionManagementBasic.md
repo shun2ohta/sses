@@ -10,6 +10,7 @@ GitHub Desktop というアプリケーションがあり、これでもリポ�
 
 ### 0. 事前に行うこと
 -   GitHub の [アカウントを作成](https://docs.github.com/ja/get-started/start-your-journey/creating-an-account-on-github) します
+-   GitHub にログインし、[新規にリポジトリを作成](https://docs.github.com/ja/repositories/creating-and-managing-repositories/creating-a-new-repository)します
 -	GitHub Desktop を [公式サイト](https://docs.github.com/ja/desktop/installing-and-authenticating-to-github-desktop/installing-github-desktop) の指示にしたがい、ダウンロード、インストールします
 -	GitHub Desktop にログイン（[GitHub Desktop → Settings → Account からログイン](https://docs.github.com/ja/desktop/installing-and-authenticating-to-github-desktop/authenticating-to-github-in-github-desktop)）します
 
