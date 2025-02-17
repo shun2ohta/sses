@@ -15,20 +15,20 @@ GitHub Desktop を使えばコマンドを覚えなくても直感的に操作�
 -	左上のブランチメニューをクリック → 「New Branch…」を選択します（**図1**）
 -	ブランチ名を入力して、「Create Branch」を押します（**図2**）
 
-<br>
-<div style="text-align: center;">
-<img src="https://www.gesw.org/img/memo/New_Branch.png" alt="New_Branch" width="40%">
-</div>
+	<br>
+	<div style="text-align: center;">
+	<img src="https://www.gesw.org/img/memo/New_Branch.png" alt="New_Branch" width="40%">
+	</div>
 
-**図1. ブランチをつくる準備**　Current Branch,　main とある部分をクリックして、New Branch ボタンを押します。
+	**図1. ブランチをつくる準備**　Current Branch,　main とある部分をクリックして、New Branch ボタンを押します。
 
 
-<div style="text-align: center;">
-<img src="https://www.gesw.org/img/memo/Create_a_Branch.png" alt="Create_a_Branch" width="40%">
-</div>
+	<div style="text-align: center;">
+	<img src="https://www.gesw.org/img/memo/Create_a_Branch.png" alt="Create_a_Branch" width="40%">
+	</div>
 
-**図2. ブランチをつくる**　ブランチの性質をよく表すシンプルな名前をつけて Create Branch ボタンを押します。
-<br>
+	**図2. ブランチをつくる**　ブランチの性質をよく表すシンプルな名前をつけて Create Branch ボタンを押します。
+	<br>
 
 
 **ポイント** － main から新しい作業ブランチをつくる（「ブランチを切る」と呼ぶことが多いです）ことで、main を直接変更せずに済みます。上記では、GitHub Desktop を使って作成していますが、もちろん GitHub の Web 版でも可能で、コマンドラインも含めて、複数の方法があります。
