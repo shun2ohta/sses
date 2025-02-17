@@ -6,6 +6,7 @@
 -------
 ### 最新の記事:
 
+- [GitHub Desktop を使って履歴管理を行う［基本編］](https://www.gesw.org/memo/RevisionManagementBasic.html)（2025年02月16日17時公開）
 - [GitHub Desktop を使って Commit を整理する](https://www.gesw.org/memo/BasicCommit.html)（2025年02月16日11時公開）
 - [GitHub Desktop を使って履歴管理を行う［ブランチ編］](https://www.gesw.org/memo/RevisionManagement.html)（2025年02月12日10時公開）
 - [VSCode でプレビューしながらマークダウン記法の書類を編集する](https://www.gesw.org/memo/PreviewMarkdown.html)（2025年02月10日21時公開）
