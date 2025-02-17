@@ -53,11 +53,11 @@ GitHub Desktop を使えばコマンドを覚えなくても直感的に操作�
 
 
 ### 4. GitHub で Pull Request を作成します
--	GitHub Desktop の 「Create Pull Request」ボタンをクリックします（**図3**）
--	すると、GitHub の Pull Request ページが開きます（**図4, 図5**）
--	プルダウンメニューから「Create Pull Request」を選びます（**図6**）
--	「Title」と「Description」を記入します（**図7**）
--	「Create Pull Request」 をクリックします
+-	GitHub Desktop の「Preview Pull Request」ボタンをクリックします（**図3**）
+-	どのような変更がなされたかを確認することができます（**図4, 図5**）
+-	GitHub Desktop の「Preview Pull Request」をプルダウンすると見える「Create Pull Request」ボタンをクリックします（**図6**）
+-	すると、GitHub の Pull Request ページが開きますので、「Title」と「Description」を記入します（**図7**）
+-	最後に「Create Pull Request」 をクリックします
 
 	<br>
 	<div style="text-align: center;">
@@ -71,14 +71,14 @@ GitHub Desktop を使えばコマンドを覚えなくても直感的に操作�
 	<img src="https://www.gesw.org/img/memo/OpenPullRequest1.png" alt="OpenPullRequest1" width="60%">
 	</div>
 
-	**図4. 差分を確認する1**　グラフィックスの変更の例（2-up）です。変更の具合に応じて、比較方法を選べます。たとえば、一目で違いがわかりづらい場合には、Swipe を選び、左右にスワイプすることで小さな変化を理解できます。変更点を見比べて問題がないか確認をします。
+	**図4. 差分を確認する1**　いわゆる「間違い探し」と同じで、グラフィックスの変更の例（2-up）を示しています。変更の具合、度合いに応じて、比較方法を選べます。たとえば、一目で違いがわかりづらい場合には、Swipe を選び、左右にスワイプすることで小さな変化を確認しやすくなります。変更点を見比べて問題がないか確認をします。
 
 	<br>
 	<div style="text-align: center;">
 	<img src="https://www.gesw.org/img/memo/OpenPullRequest2.png" alt="OpenPullRequest2" width="60%">
 	</div>
 
-	**図5. 差分を確認する2**　コードの変更例です。変更点を見比べて問題がないか確認をします。
+	**図5. 差分を確認する2**　コードの変更例です。変更点を見比べて問題がないか確認をします。この例では、同じ38行目で `-` と `+` があるので、前者が変更前、後者が変更後を示しています。
 
 	<br>
 	<div style="text-align: center;">
@@ -106,8 +106,8 @@ GitHub Desktop を使えばコマンドを覚えなくても直感的に操作�
 ### 5. Pull Request をレビューして main にマージ（Merge）します
 -	GitHub上で、変更を確認します
 -	問題がなければ、「Merge pull request」をクリックします（**図8**）
--	すると、マージを行なってもよいかの最終確認を求められます（**図9**）
--	マージが完了し、Pull requestの処理も終わったので、Closeされます（**図10**）
+-	すると、マージを行なってもよいかの確認（Confirm merge）を求められます（**図9**）
+-	マージが完了し、Pull requestの処理も終わったので、Pull request が Close されます（**図10**）
 -	「Delete branch」 を押して、使い終わったブランチを削除します
 
 	<br>
@@ -139,7 +139,7 @@ GitHub Desktop を使えばコマンドを覚えなくても直感的に操作�
 
 ### 6. ローカルの main を最新に更新します
 -	GitHub Desktop に戻ります
--	左上のブランチメニューで main を選択 → 「Fetch Origin」→「Pull」ボタン を押して最新の main を取得します（**図11**）
+-	左上のブランチメニューで main を選択 → 「Fetch origin」→「Pull origin」ボタン を押して最新の main を取得します（**図11**）
 -	「History」からマージされているかを確認してもよいでしょう（**図12**）
 
 	<br>
@@ -154,8 +154,8 @@ GitHub Desktop を使えばコマンドを覚えなくても直感的に操作�
 	<img src="https://www.gesw.org/img/memo/CheckHistory_main.png" alt="CheckHistory_main" width="70%">
 	</div>
 
-	**図12. ローカルリポジトリにマージが反映されているか確認する**　ローカルの main にもマージが反映されていることがわかります。
-	<br>
+	**図12. ローカルリポジトリにマージが反映されているか確認する**　ローカルの main にもマージ内容が反映されていることがわかります。
+	<br><br>
 
 **✔ ポイント** － main が最新になっていることを確認し、新しい作業に進めます。
 <br><br>
