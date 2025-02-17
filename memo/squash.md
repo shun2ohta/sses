@@ -38,8 +38,8 @@
 -	統合したい Commits を2つ選択して、変更点を確認します（**図3**）
 -	そのまま右クリック（ダブルタップ）をして「Squash 2 Commits...」を選びます（**図3**）
 -   軽微な修正ごとに Commit するより、まとめて一つにするほうがのちに楽になると判断できます
--   自動で補完される Summary と Description をわかりやすいものに変更するとよいでしょう（**図4**）
--   「Squash 2 Commits」を押す
+-   自動で補完されますが、Summary と Description をわかりやすいものに変更するとよいでしょう（**図4**）
+-   「Squash 2 Commits」を押します
 
     <br>
     <div style="text-align: center;">
@@ -53,7 +53,7 @@
     <img src="https://www.gesw.org/img/memo/Summary-Description.png" alt="Summary-Description" width="45%">
     </div>
 
-    **図4. Summary と Description に Commits メッセージを書く**　デフォルトでそれぞれの Commit メッセージから補完されますが、必要に応じてわかりやすい Commits メッセージに修正するとよいでしょう。
+    **図4. Summary と Description に Commit メッセージを書く**　デフォルトでそれぞれの Commit メッセージから補完されますが、必要に応じてわかりやすい Commits メッセージに修正するとよいでしょう。
     <br><br>
 
 
@@ -62,9 +62,10 @@
 <br><br>
 
 
-### 3. Squash された Commit を確認する
+### 3. Squash された Commit を確認し、Push する
 -	統合した Commit を選択すると、統合された変更点を確認できます（**図5**）
 -	2つの細かい Commits が1つになりました（**図5**）
+-   Push して、リモートリポジトリに変更点を反映させます
 
     <br>
     <div style="text-align: center;">
