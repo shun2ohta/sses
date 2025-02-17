@@ -53,7 +53,7 @@
     <img src="https://www.gesw.org/img/memo/Summary-Description.png" alt="Summary-Description" width="45%">
     </div>
 
-    **図4. Summary と Description に Commit メッセージを書く**　デフォルトでそれぞれの Commit メッセージから補完されますが、必要に応じてわかりやすい Commits メッセージに修正するとよいでしょう。
+    **図4. Summary と Description に Commit メッセージを書く**　デフォルトでそれぞれの Commit メッセージから補完されますが、必要に応じてわかりやすい Commit メッセージに修正するとよいでしょう。
     <br><br>
 
 
