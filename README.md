@@ -19,3 +19,4 @@
 - [GitHub Pages で公開するペイジの体裁を整える](https://www.gesw.org/memo/github_pages_theme.html)（2024年11月18日18時公開）
 - [不可視ファイルをgitで追跡しないようにする](https://www.gesw.org/memo/dotDS_Store.html)（2024年11月18日16時公開、2024年11月23日10時更新）
 - [Python標準のCSVモジュールの非該当処理](https://www.gesw.org/memo/standard-csv.html)（2024年11月18日11時公開）
+- [グループ演習課題1-10（10月2日）に関する担当教員からのコメント](https://www.gesw.org/memo/第1回発表に関するコメント.html)（2025年10月03日09時公開）
