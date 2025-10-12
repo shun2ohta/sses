@@ -6,7 +6,7 @@
 -------
 ### 最新の記事:
 
-- [グループ演習課題2-8, 2-9（10月9日）に関する担当教員からのコメント](https://www.gesw.org/memo/第2回発表に関するコメント.html)（2025年10月10日15時公開）
+- [グループ演習課題2-8, 2-9（10月9日）に関する担当教員からのコメント](https://www.gesw.org/memo/第2回発表に関するコメント.html)（2025年10月10日15時公開、2025年10月12日09時更新）
 - [グループ演習課題1-10（10月2日）に関する担当教員からのコメント](https://www.gesw.org/memo/第1回発表に関するコメント.html)（2025年10月03日09時公開）
 - [GitHub Desktop を使って Commit を整理する［Squash］](https://www.gesw.org/memo/squash.html)（2025年02月17日21時公開）
 - [GitHub Desktop を使って履歴管理を行う［基本編］](https://www.gesw.org/memo/RevisionManagementBasic.html)（2025年02月16日17時公開）
